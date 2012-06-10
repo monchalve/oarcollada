@@ -1,0 +1,569 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<COLLADA xmlns="http://www.collada.org/2008/03/COLLADASchema" version="1.5.0">
+	<asset>
+		<created>2008-02-23T13:30:00Z</created>
+		<modified>2008-02-23T13:30:00Z</modified>
+	</asset>
+	<library_geometries>
+		<geometry id="OpenVCE">
+			<mesh>
+				<source id="OpenVCE">
+					<float_array id="OpenVCE-array" count="30" digits="2490374">-4.00002 -3.99999 -0.25 3.99999 -4.00002 -0.25 4.00002 3.99999 -0.25 -3.99999 4.00002 -0.25 -4.00002 -3.99999 -0.25 -4.00002 -3.99999 0.25 3.99999 -4.00002 0.25 4.00002 3.99999 0.25 -3.99999 4.00002 0.25 -4.00002 -3.99999 0.25</float_array>
+					<technique_common>
+						<accessor count="10" source="#OpenVCE-array" stride="3">
+							<param name="X" type="float"/>
+							<param name="Y" type="float"/>
+							<param name="Z" type="float"/>
+						</accessor>
+					</technique_common>
+				</source>
+				<source id="OpenVCE">
+					<float_array id="OpenVCE-array" count="30" digits="2490374">-3.39746e-06 -1 0 1 -3.41982e-06 0 3.39746e-06 1 0 -1 3.41982e-06 0 -3.39746e-06 -1 -0 -3.39746e-06 -1 0 1 -3.41982e-06 0 3.39746e-06 1 0 -1 3.41982e-06 0 -3.39746e-06 -1 0</float_array>
+					<technique_common>
+						<accessor count="10" source="#OpenVCE-array" stride="3">
+							<param name="X" type="float"/>
+							<param name="Y" type="float"/>
+							<param name="Z" type="float"/>
+						</accessor>
+					</technique_common>
+				</source>
+				<vertices id="OpenVCE">
+					<input semantic="POSITION" source="#OpenVCE%20-%20Expo%20Pavilion%20-%20ConnectorGeom-positions"/>
+				</vertices>
+				<triangles count="14" material="mtl">
+					<input offset="0" semantic="VERTEX" source="OpenVCE%20-%20Expo%20Pavilion%20-%20ConnectorGeom-vertices" set="0"/>
+					<input offset="1" semantic="NORMAL" source="OpenVCE%20-%20Expo%20Pavilion%20-%20ConnectorGeom-normals" set="0"/>
+					<p>2 0 1 0 0 0 3 0 2 0 0 0 5 5 6 5 7 5 5 5 7 5 8 5 5 5 0 0 1 1 5 5 1 1 6 6 6 6 1 1 2 2 6 6 2 2 7 7 7 7 2 2 3 3 7 7 3 3 8 8 8 8 3 3 4 4 8 8 4 4 9 9 9 9 4 4 0 0 9 9 0 0 5 5</p>
+				</triangles>
+			</mesh>
+		</geometry>
+	</library_geometries>
+	<library_geometries>
+		<geometry id="OpenVCE">
+			<mesh>
+				<source id="OpenVCE">
+					<float_array id="OpenVCE-array" count="60" digits="2490374">-4.87502 -3.99999 -3.25 4.87499 -4.00002 -3.25 4.87502 3.99999 -3.25 -4.87499 4.00002 -3.25 -4.87502 -3.99999 -3.25 -4.33877 -3.55999 -3.25 -4.33874 3.56001 -3.25 4.33877 3.55999 -3.25 4.33874 -3.56001 -3.25 -4.33877 -3.55999 -3.25 -4.87502 -3.99999 3.25 4.87499 -4.00002 3.25 4.87502 3.99999 3.25 -4.87499 4.00002 3.25 -4.87502 -3.99999 3.25 -4.33877 -3.55999 3.25 -4.33874 3.56001 3.25 4.33877 3.55999 3.25 4.33874 -3.56001 3.25 -4.33877 -3.55999 3.25</float_array>
+					<technique_common>
+						<accessor count="20" source="#OpenVCE-array" stride="3">
+							<param name="X" type="float"/>
+							<param name="Y" type="float"/>
+							<param name="Z" type="float"/>
+						</accessor>
+					</technique_common>
+				</source>
+				<source id="OpenVCE">
+					<float_array id="OpenVCE-array" count="60" digits="2490374">-3.39746e-06 -1 0 1 -3.41982e-06 0 3.39746e-06 1 0 -1 3.41982e-06 0 -3.39746e-06 -1 0 3.39746e-06 1 0 1 -3.41982e-06 0 -3.39746e-06 -1 0 -1 3.41982e-06 0 3.39746e-06 1 -0 -3.39746e-06 -1 0 1 -3.41982e-06 0 3.39746e-06 1 0 -1 3.41982e-06 0 -3.39746e-06 -1 0 3.39746e-06 1 0 1 -3.41982e-06 0 -3.39746e-06 -1 0 -1 3.41982e-06 0 3.39746e-06 1 0</float_array>
+					<technique_common>
+						<accessor count="20" source="#OpenVCE-array" stride="3">
+							<param name="X" type="float"/>
+							<param name="Y" type="float"/>
+							<param name="Z" type="float"/>
+						</accessor>
+					</technique_common>
+				</source>
+				<vertices id="OpenVCE">
+					<input semantic="POSITION" source="#OpenVCE%20-%20Expo%20pavilion%20-%20central%20entranceGeom-positions"/>
+				</vertices>
+				<triangles count="36" material="mtl">
+					<input offset="0" semantic="VERTEX" source="OpenVCE%20-%20Expo%20pavilion%20-%20central%20entranceGeom-vertices" set="0"/>
+					<input offset="1" semantic="NORMAL" source="OpenVCE%20-%20Expo%20pavilion%20-%20central%20entranceGeom-normals" set="0"/>
+					<p>9 0 1 0 0 0 9 0 8 0 1 0 8 0 2 0 1 0 8 0 7 0 2 0 7 0 3 0 2 0 7 0 6 0 3 0 6 0 4 0 3 0 6 0 5 0 4 0 10 10 11 10 19 10 11 10 18 10 19 10 11 10 12 10 18 10 12 10 17 10 18 10 12 10 13 10 17 10 13 10 16 10 17 10 13 10 14 10 16 10 14 10 15 10 16 10 10 10 0 0 1 1 10 10 1 1 11 11 11 11 1 1 2 2 11 11 2 2 12 12 12 12 2 2 3 3 12 12 3 3 13 13 13 13 3 3 4 4 13 13 4 4 14 14 14 14 4 4 5 5 14 14 5 5 15 15 15 15 5 5 6 6 15 15 6 6 16 16 16 16 6 6 7 7 16 16 7 7 17 17 17 17 7 7 8 8 17 17 8 8 18 18 18 18 8 8 9 9 18 18 9 9 19 19 19 19 9 9 0 0 19 19 0 0 10 10</p>
+				</triangles>
+			</mesh>
+		</geometry>
+	</library_geometries>
+	<library_geometries>
+		<geometry id="OpenVCE">
+			<mesh>
+				<source id="OpenVCE">
+					<float_array id="OpenVCE-array" count="30" digits="2490374">-0.750003 -3.99999 -0.125 0.749998 -4.00002 -0.125 0.750003 3.99999 -0.125 -0.749998 4.00002 -0.125 -0.750003 -3.99999 -0.125 -0.750003 -3.99999 0.125 0.749998 -4.00002 0.125 0.750003 3.99999 0.125 -0.749998 4.00002 0.125 -0.750003 -3.99999 0.125</float_array>
+					<technique_common>
+						<accessor count="10" source="#OpenVCE-array" stride="3">
+							<param name="X" type="float"/>
+							<param name="Y" type="float"/>
+							<param name="Z" type="float"/>
+						</accessor>
+					</technique_common>
+				</source>
+				<source id="OpenVCE">
+					<float_array id="OpenVCE-array" count="30" digits="2490374">-3.39746e-06 -1 0 1 -3.41982e-06 0 3.39746e-06 1 0 -1 3.41982e-06 0 -3.39746e-06 -1 -0 -3.39746e-06 -1 0 1 -3.41982e-06 0 3.39746e-06 1 0 -1 3.41982e-06 0 -3.39746e-06 -1 0</float_array>
+					<technique_common>
+						<accessor count="10" source="#OpenVCE-array" stride="3">
+							<param name="X" type="float"/>
+							<param name="Y" type="float"/>
+							<param name="Z" type="float"/>
+						</accessor>
+					</technique_common>
+				</source>
+				<vertices id="OpenVCE">
+					<input semantic="POSITION" source="#OpenVCE%20-%20Expo%20pavilion%20-%20lhs%20left%20doorGeom-positions"/>
+				</vertices>
+				<triangles count="14" material="mtl">
+					<input offset="0" semantic="VERTEX" source="OpenVCE%20-%20Expo%20pavilion%20-%20lhs%20left%20doorGeom-vertices" set="0"/>
+					<input offset="1" semantic="NORMAL" source="OpenVCE%20-%20Expo%20pavilion%20-%20lhs%20left%20doorGeom-normals" set="0"/>
+					<p>2 0 1 0 0 0 3 0 2 0 0 0 5 5 6 5 7 5 5 5 7 5 8 5 5 5 0 0 1 1 5 5 1 1 6 6 6 6 1 1 2 2 6 6 2 2 7 7 7 7 2 2 3 3 7 7 3 3 8 8 8 8 3 3 4 4 8 8 4 4 9 9 9 9 4 4 0 0 9 9 0 0 5 5</p>
+				</triangles>
+			</mesh>
+		</geometry>
+	</library_geometries>
+	<library_geometries>
+		<geometry id="cz">
+			<mesh>
+				<source id="cz">
+					<float_array id="cz-array" count="30" digits="2490374">-4.62502 -3.99999 -0.05 4.62499 -4.00002 -0.05 4.62502 3.99999 -0.05 -4.62499 4.00002 -0.05 -4.62502 -3.99999 -0.05 -4.62502 -3.99999 0.05 4.62499 -4.00002 0.05 4.62502 3.99999 0.05 -4.62499 4.00002 0.05 -4.62502 -3.99999 0.05</float_array>
+					<technique_common>
+						<accessor count="10" source="#cz-array" stride="3">
+							<param name="X" type="float"/>
+							<param name="Y" type="float"/>
+							<param name="Z" type="float"/>
+						</accessor>
+					</technique_common>
+				</source>
+				<source id="cz">
+					<float_array id="cz-array" count="30" digits="2490374">-3.39746e-06 -1 0 1 -3.41982e-06 0 3.39746e-06 1 0 -1 3.41982e-06 0 -3.39746e-06 -1 -0 -3.39746e-06 -1 0 1 -3.41982e-06 0 3.39746e-06 1 0 -1 3.41982e-06 0 -3.39746e-06 -1 0</float_array>
+					<technique_common>
+						<accessor count="10" source="#cz-array" stride="3">
+							<param name="X" type="float"/>
+							<param name="Y" type="float"/>
+							<param name="Z" type="float"/>
+						</accessor>
+					</technique_common>
+				</source>
+				<vertices id="cz">
+					<input semantic="POSITION" source="#cz%20OV%20wallGeom-positions"/>
+				</vertices>
+				<triangles count="14" material="mtl">
+					<input offset="0" semantic="VERTEX" source="cz%20OV%20wallGeom-vertices" set="0"/>
+					<input offset="1" semantic="NORMAL" source="cz%20OV%20wallGeom-normals" set="0"/>
+					<p>2 0 1 0 0 0 3 0 2 0 0 0 5 5 6 5 7 5 5 5 7 5 8 5 5 5 0 0 1 1 5 5 1 1 6 6 6 6 1 1 2 2 6 6 2 2 7 7 7 7 2 2 3 3 7 7 3 3 8 8 8 8 3 3 4 4 8 8 4 4 9 9 9 9 4 4 0 0 9 9 0 0 5 5</p>
+				</triangles>
+			</mesh>
+		</geometry>
+	</library_geometries>
+	<library_geometries>
+		<geometry id="cz">
+			<mesh>
+				<source id="cz">
+					<float_array id="cz-array" count="30" digits="2490374">-4.62502 -3.99999 -0.05 4.62499 -4.00002 -0.05 4.62502 3.99999 -0.05 -4.62499 4.00002 -0.05 -4.62502 -3.99999 -0.05 -4.62502 -3.99999 0.05 4.62499 -4.00002 0.05 4.62502 3.99999 0.05 -4.62499 4.00002 0.05 -4.62502 -3.99999 0.05</float_array>
+					<technique_common>
+						<accessor count="10" source="#cz-array" stride="3">
+							<param name="X" type="float"/>
+							<param name="Y" type="float"/>
+							<param name="Z" type="float"/>
+						</accessor>
+					</technique_common>
+				</source>
+				<source id="cz">
+					<float_array id="cz-array" count="30" digits="2490374">-3.39746e-06 -1 0 1 -3.41982e-06 0 3.39746e-06 1 0 -1 3.41982e-06 0 -3.39746e-06 -1 -0 -3.39746e-06 -1 0 1 -3.41982e-06 0 3.39746e-06 1 0 -1 3.41982e-06 0 -3.39746e-06 -1 0</float_array>
+					<technique_common>
+						<accessor count="10" source="#cz-array" stride="3">
+							<param name="X" type="float"/>
+							<param name="Y" type="float"/>
+							<param name="Z" type="float"/>
+						</accessor>
+					</technique_common>
+				</source>
+				<vertices id="cz">
+					<input semantic="POSITION" source="#cz%20OV%20wallGeom-positions"/>
+				</vertices>
+				<triangles count="14" material="mtl">
+					<input offset="0" semantic="VERTEX" source="cz%20OV%20wallGeom-vertices" set="0"/>
+					<input offset="1" semantic="NORMAL" source="cz%20OV%20wallGeom-normals" set="0"/>
+					<p>2 0 1 0 0 0 3 0 2 0 0 0 5 5 6 5 7 5 5 5 7 5 8 5 5 5 0 0 1 1 5 5 1 1 6 6 6 6 1 1 2 2 6 6 2 2 7 7 7 7 2 2 3 3 7 7 3 3 8 8 8 8 3 3 4 4 8 8 4 4 9 9 9 9 4 4 0 0 9 9 0 0 5 5</p>
+				</triangles>
+			</mesh>
+		</geometry>
+	</library_geometries>
+	<library_geometries>
+		<geometry id="OV">
+			<mesh>
+				<source id="OV">
+					<float_array id="OV-array" count="30" digits="2490374">-4.62502 -3.99999 -0.05 4.62499 -4.00002 -0.05 4.62502 3.99999 -0.05 -4.62499 4.00002 -0.05 -4.62502 -3.99999 -0.05 -4.62502 -3.99999 0.05 4.62499 -4.00002 0.05 4.62502 3.99999 0.05 -4.62499 4.00002 0.05 -4.62502 -3.99999 0.05</float_array>
+					<technique_common>
+						<accessor count="10" source="#OV-array" stride="3">
+							<param name="X" type="float"/>
+							<param name="Y" type="float"/>
+							<param name="Z" type="float"/>
+						</accessor>
+					</technique_common>
+				</source>
+				<source id="OV">
+					<float_array id="OV-array" count="30" digits="2490374">-3.39746e-06 -1 0 1 -3.41982e-06 0 3.39746e-06 1 0 -1 3.41982e-06 0 -3.39746e-06 -1 -0 -3.39746e-06 -1 0 1 -3.41982e-06 0 3.39746e-06 1 0 -1 3.41982e-06 0 -3.39746e-06 -1 0</float_array>
+					<technique_common>
+						<accessor count="10" source="#OV-array" stride="3">
+							<param name="X" type="float"/>
+							<param name="Y" type="float"/>
+							<param name="Z" type="float"/>
+						</accessor>
+					</technique_common>
+				</source>
+				<vertices id="OV">
+					<input semantic="POSITION" source="#OV%20optional%20link%20unitGeom-positions"/>
+				</vertices>
+				<triangles count="14" material="mtl">
+					<input offset="0" semantic="VERTEX" source="OV%20optional%20link%20unitGeom-vertices" set="0"/>
+					<input offset="1" semantic="NORMAL" source="OV%20optional%20link%20unitGeom-normals" set="0"/>
+					<p>2 0 1 0 0 0 3 0 2 0 0 0 5 5 6 5 7 5 5 5 7 5 8 5 5 5 0 0 1 1 5 5 1 1 6 6 6 6 1 1 2 2 6 6 2 2 7 7 7 7 2 2 3 3 7 7 3 3 8 8 8 8 3 3 4 4 8 8 4 4 9 9 9 9 4 4 0 0 9 9 0 0 5 5</p>
+				</triangles>
+			</mesh>
+		</geometry>
+	</library_geometries>
+	<library_geometries>
+		<geometry id="OpenVCE">
+			<mesh>
+				<source id="OpenVCE">
+					<float_array id="OpenVCE-array" count="30" digits="2490374">-0.375001 -3.99999 -0.5 0.374999 -4.00002 -0.5 0.375001 3.99999 -0.5 -0.374999 4.00002 -0.5 -0.375001 -3.99999 -0.5 -0.375001 -3.99999 0.5 0.374999 -4.00002 0.5 0.375001 3.99999 0.5 -0.374999 4.00002 0.5 -0.375001 -3.99999 0.5</float_array>
+					<technique_common>
+						<accessor count="10" source="#OpenVCE-array" stride="3">
+							<param name="X" type="float"/>
+							<param name="Y" type="float"/>
+							<param name="Z" type="float"/>
+						</accessor>
+					</technique_common>
+				</source>
+				<source id="OpenVCE">
+					<float_array id="OpenVCE-array" count="30" digits="2490374">-3.39746e-06 -1 0 1 -3.41982e-06 0 3.39746e-06 1 0 -1 3.41982e-06 0 -3.39746e-06 -1 -0 -3.39746e-06 -1 0 1 -3.41982e-06 0 3.39746e-06 1 0 -1 3.41982e-06 0 -3.39746e-06 -1 0</float_array>
+					<technique_common>
+						<accessor count="10" source="#OpenVCE-array" stride="3">
+							<param name="X" type="float"/>
+							<param name="Y" type="float"/>
+							<param name="Z" type="float"/>
+						</accessor>
+					</technique_common>
+				</source>
+				<vertices id="OpenVCE">
+					<input semantic="POSITION" source="#OpenVCE%20-%20Expo%20pavilion%20-%20lhs%20left%20doorGeom-positions"/>
+				</vertices>
+				<triangles count="14" material="mtl">
+					<input offset="0" semantic="VERTEX" source="OpenVCE%20-%20Expo%20pavilion%20-%20lhs%20left%20doorGeom-vertices" set="0"/>
+					<input offset="1" semantic="NORMAL" source="OpenVCE%20-%20Expo%20pavilion%20-%20lhs%20left%20doorGeom-normals" set="0"/>
+					<p>2 0 1 0 0 0 3 0 2 0 0 0 5 5 6 5 7 5 5 5 7 5 8 5 5 5 0 0 1 1 5 5 1 1 6 6 6 6 1 1 2 2 6 6 2 2 7 7 7 7 2 2 3 3 7 7 3 3 8 8 8 8 3 3 4 4 8 8 4 4 9 9 9 9 4 4 0 0 9 9 0 0 5 5</p>
+				</triangles>
+			</mesh>
+		</geometry>
+	</library_geometries>
+	<library_geometries>
+		<geometry id="OpenVCE">
+			<mesh>
+				<source id="OpenVCE">
+					<float_array id="OpenVCE-array" count="30" digits="2490374">-5.00002 -4.99999 -0.25 4.99999 -5.00002 -0.25 5.00002 4.99999 -0.25 -4.99999 5.00002 -0.25 -5.00002 -4.99999 -0.25 -5.00002 -4.99999 0.25 4.99999 -5.00002 0.25 5.00002 4.99999 0.25 -4.99999 5.00002 0.25 -5.00002 -4.99999 0.25</float_array>
+					<technique_common>
+						<accessor count="10" source="#OpenVCE-array" stride="3">
+							<param name="X" type="float"/>
+							<param name="Y" type="float"/>
+							<param name="Z" type="float"/>
+						</accessor>
+					</technique_common>
+				</source>
+				<source id="OpenVCE">
+					<float_array id="OpenVCE-array" count="30" digits="2490374">-3.39746e-06 -1 0 1 -3.41982e-06 0 3.39746e-06 1 0 -1 3.41982e-06 0 -3.39746e-06 -1 -0 -3.39746e-06 -1 0 1 -3.41982e-06 0 3.39746e-06 1 0 -1 3.41982e-06 0 -3.39746e-06 -1 0</float_array>
+					<technique_common>
+						<accessor count="10" source="#OpenVCE-array" stride="3">
+							<param name="X" type="float"/>
+							<param name="Y" type="float"/>
+							<param name="Z" type="float"/>
+						</accessor>
+					</technique_common>
+				</source>
+				<vertices id="OpenVCE">
+					<input semantic="POSITION" source="#OpenVCE%20-%20Expo%20pavillion%20connector%20-%20galleryGeom-positions"/>
+				</vertices>
+				<triangles count="14" material="mtl">
+					<input offset="0" semantic="VERTEX" source="OpenVCE%20-%20Expo%20pavillion%20connector%20-%20galleryGeom-vertices" set="0"/>
+					<input offset="1" semantic="NORMAL" source="OpenVCE%20-%20Expo%20pavillion%20connector%20-%20galleryGeom-normals" set="0"/>
+					<p>2 0 1 0 0 0 3 0 2 0 0 0 5 5 6 5 7 5 5 5 7 5 8 5 5 5 0 0 1 1 5 5 1 1 6 6 6 6 1 1 2 2 6 6 2 2 7 7 7 7 2 2 3 3 7 7 3 3 8 8 8 8 3 3 4 4 8 8 4 4 9 9 9 9 4 4 0 0 9 9 0 0 5 5</p>
+				</triangles>
+			</mesh>
+		</geometry>
+	</library_geometries>
+	<library_geometries>
+		<geometry id="OpenVCE">
+			<mesh>
+				<source id="OpenVCE">
+					<float_array id="OpenVCE-array" count="30" digits="2490374">-0.0750003 -4.99999 -0.075 0.0749998 -5.00002 -0.075 0.0750003 4.99999 -0.075 -0.0749998 5.00002 -0.075 -0.0750003 -4.99999 -0.075 -0.0750003 -4.99999 0.075 0.0749998 -5.00002 0.075 0.0750003 4.99999 0.075 -0.0749998 5.00002 0.075 -0.0750003 -4.99999 0.075</float_array>
+					<technique_common>
+						<accessor count="10" source="#OpenVCE-array" stride="3">
+							<param name="X" type="float"/>
+							<param name="Y" type="float"/>
+							<param name="Z" type="float"/>
+						</accessor>
+					</technique_common>
+				</source>
+				<source id="OpenVCE">
+					<float_array id="OpenVCE-array" count="30" digits="2490374">-3.39746e-06 -1 0 1 -3.41982e-06 0 3.39746e-06 1 0 -1 3.41982e-06 0 -3.39746e-06 -1 -0 -3.39746e-06 -1 0 1 -3.41982e-06 0 3.39746e-06 1 0 -1 3.41982e-06 0 -3.39746e-06 -1 0</float_array>
+					<technique_common>
+						<accessor count="10" source="#OpenVCE-array" stride="3">
+							<param name="X" type="float"/>
+							<param name="Y" type="float"/>
+							<param name="Z" type="float"/>
+						</accessor>
+					</technique_common>
+				</source>
+				<vertices id="OpenVCE">
+					<input semantic="POSITION" source="#OpenVCE%20-%20Expo%20pavilion%20-%20lhs%20left%20doorGeom-positions"/>
+				</vertices>
+				<triangles count="14" material="mtl">
+					<input offset="0" semantic="VERTEX" source="OpenVCE%20-%20Expo%20pavilion%20-%20lhs%20left%20doorGeom-vertices" set="0"/>
+					<input offset="1" semantic="NORMAL" source="OpenVCE%20-%20Expo%20pavilion%20-%20lhs%20left%20doorGeom-normals" set="0"/>
+					<p>2 0 1 0 0 0 3 0 2 0 0 0 5 5 6 5 7 5 5 5 7 5 8 5 5 5 0 0 1 1 5 5 1 1 6 6 6 6 1 1 2 2 6 6 2 2 7 7 7 7 2 2 3 3 7 7 3 3 8 8 8 8 3 3 4 4 8 8 4 4 9 9 9 9 4 4 0 0 9 9 0 0 5 5</p>
+				</triangles>
+			</mesh>
+		</geometry>
+	</library_geometries>
+	<library_geometries>
+		<geometry id="OpenVCE">
+			<mesh>
+				<source id="OpenVCE">
+					<float_array id="OpenVCE-array" count="30" digits="2490374">-4.00002 -3.99999 -0.25 3.99999 -4.00002 -0.25 4.00002 3.99999 -0.25 -3.99999 4.00002 -0.25 -4.00002 -3.99999 -0.25 -4.00002 -3.99999 0.25 3.99999 -4.00002 0.25 4.00002 3.99999 0.25 -3.99999 4.00002 0.25 -4.00002 -3.99999 0.25</float_array>
+					<technique_common>
+						<accessor count="10" source="#OpenVCE-array" stride="3">
+							<param name="X" type="float"/>
+							<param name="Y" type="float"/>
+							<param name="Z" type="float"/>
+						</accessor>
+					</technique_common>
+				</source>
+				<source id="OpenVCE">
+					<float_array id="OpenVCE-array" count="30" digits="2490374">-3.39746e-06 -1 0 1 -3.41982e-06 0 3.39746e-06 1 0 -1 3.41982e-06 0 -3.39746e-06 -1 -0 -3.39746e-06 -1 0 1 -3.41982e-06 0 3.39746e-06 1 0 -1 3.41982e-06 0 -3.39746e-06 -1 0</float_array>
+					<technique_common>
+						<accessor count="10" source="#OpenVCE-array" stride="3">
+							<param name="X" type="float"/>
+							<param name="Y" type="float"/>
+							<param name="Z" type="float"/>
+						</accessor>
+					</technique_common>
+				</source>
+				<vertices id="OpenVCE">
+					<input semantic="POSITION" source="#OpenVCE%20-%20Expo%20pavillion%20connectorGeom-positions"/>
+				</vertices>
+				<triangles count="14" material="mtl">
+					<input offset="0" semantic="VERTEX" source="OpenVCE%20-%20Expo%20pavillion%20connectorGeom-vertices" set="0"/>
+					<input offset="1" semantic="NORMAL" source="OpenVCE%20-%20Expo%20pavillion%20connectorGeom-normals" set="0"/>
+					<p>2 0 1 0 0 0 3 0 2 0 0 0 5 5 6 5 7 5 5 5 7 5 8 5 5 5 0 0 1 1 5 5 1 1 6 6 6 6 1 1 2 2 6 6 2 2 7 7 7 7 2 2 3 3 7 7 3 3 8 8 8 8 3 3 4 4 8 8 4 4 9 9 9 9 4 4 0 0 9 9 0 0 5 5</p>
+				</triangles>
+			</mesh>
+		</geometry>
+	</library_geometries>
+	<library_geometries>
+		<geometry id="cz">
+			<mesh>
+				<source id="cz">
+					<float_array id="cz-array" count="30" digits="2490374">-4.00002 -3.99999 -0.25 3.99999 -4.00002 -0.25 4.00002 3.99999 -0.25 -3.99999 4.00002 -0.25 -4.00002 -3.99999 -0.25 -4.00002 -3.99999 0.25 3.99999 -4.00002 0.25 4.00002 3.99999 0.25 -3.99999 4.00002 0.25 -4.00002 -3.99999 0.25</float_array>
+					<technique_common>
+						<accessor count="10" source="#cz-array" stride="3">
+							<param name="X" type="float"/>
+							<param name="Y" type="float"/>
+							<param name="Z" type="float"/>
+						</accessor>
+					</technique_common>
+				</source>
+				<source id="cz">
+					<float_array id="cz-array" count="30" digits="2490374">-3.39746e-06 -1 0 1 -3.41982e-06 0 3.39746e-06 1 0 -1 3.41982e-06 0 -3.39746e-06 -1 -0 -3.39746e-06 -1 0 1 -3.41982e-06 0 3.39746e-06 1 0 -1 3.41982e-06 0 -3.39746e-06 -1 0</float_array>
+					<technique_common>
+						<accessor count="10" source="#cz-array" stride="3">
+							<param name="X" type="float"/>
+							<param name="Y" type="float"/>
+							<param name="Z" type="float"/>
+						</accessor>
+					</technique_common>
+				</source>
+				<vertices id="cz">
+					<input semantic="POSITION" source="#cz%20OV%20floorGeom-positions"/>
+				</vertices>
+				<triangles count="14" material="mtl">
+					<input offset="0" semantic="VERTEX" source="cz%20OV%20floorGeom-vertices" set="0"/>
+					<input offset="1" semantic="NORMAL" source="cz%20OV%20floorGeom-normals" set="0"/>
+					<p>2 0 1 0 0 0 3 0 2 0 0 0 5 5 6 5 7 5 5 5 7 5 8 5 5 5 0 0 1 1 5 5 1 1 6 6 6 6 1 1 2 2 6 6 2 2 7 7 7 7 2 2 3 3 7 7 3 3 8 8 8 8 3 3 4 4 8 8 4 4 9 9 9 9 4 4 0 0 9 9 0 0 5 5</p>
+				</triangles>
+			</mesh>
+		</geometry>
+	</library_geometries>
+	<library_geometries>
+		<geometry id="cz">
+			<mesh>
+				<source id="cz">
+					<float_array id="cz-array" count="30" digits="2490374">-4.00002 -3.99999 -0.25 3.99999 -4.00002 -0.25 4.00002 3.99999 -0.25 -3.99999 4.00002 -0.25 -4.00002 -3.99999 -0.25 -4.00002 -3.99999 0.25 3.99999 -4.00002 0.25 4.00002 3.99999 0.25 -3.99999 4.00002 0.25 -4.00002 -3.99999 0.25</float_array>
+					<technique_common>
+						<accessor count="10" source="#cz-array" stride="3">
+							<param name="X" type="float"/>
+							<param name="Y" type="float"/>
+							<param name="Z" type="float"/>
+						</accessor>
+					</technique_common>
+				</source>
+				<source id="cz">
+					<float_array id="cz-array" count="30" digits="2490374">-3.39746e-06 -1 0 1 -3.41982e-06 0 3.39746e-06 1 0 -1 3.41982e-06 0 -3.39746e-06 -1 -0 -3.39746e-06 -1 0 1 -3.41982e-06 0 3.39746e-06 1 0 -1 3.41982e-06 0 -3.39746e-06 -1 0</float_array>
+					<technique_common>
+						<accessor count="10" source="#cz-array" stride="3">
+							<param name="X" type="float"/>
+							<param name="Y" type="float"/>
+							<param name="Z" type="float"/>
+						</accessor>
+					</technique_common>
+				</source>
+				<vertices id="cz">
+					<input semantic="POSITION" source="#cz%20OV%20floorGeom-positions"/>
+				</vertices>
+				<triangles count="14" material="mtl">
+					<input offset="0" semantic="VERTEX" source="cz%20OV%20floorGeom-vertices" set="0"/>
+					<input offset="1" semantic="NORMAL" source="cz%20OV%20floorGeom-normals" set="0"/>
+					<p>2 0 1 0 0 0 3 0 2 0 0 0 5 5 6 5 7 5 5 5 7 5 8 5 5 5 0 0 1 1 5 5 1 1 6 6 6 6 1 1 2 2 6 6 2 2 7 7 7 7 2 2 3 3 7 7 3 3 8 8 8 8 3 3 4 4 8 8 4 4 9 9 9 9 4 4 0 0 9 9 0 0 5 5</p>
+				</triangles>
+			</mesh>
+		</geometry>
+	</library_geometries>
+	<library_geometries>
+		<geometry id="OpenVCE">
+			<mesh>
+				<source id="OpenVCE">
+					<float_array id="OpenVCE-array" count="30" digits="2490374">-0.750003 -3.99999 -0.125 0.749998 -4.00002 -0.125 0.750003 3.99999 -0.125 -0.749998 4.00002 -0.125 -0.750003 -3.99999 -0.125 -0.750003 -3.99999 0.125 0.749998 -4.00002 0.125 0.750003 3.99999 0.125 -0.749998 4.00002 0.125 -0.750003 -3.99999 0.125</float_array>
+					<technique_common>
+						<accessor count="10" source="#OpenVCE-array" stride="3">
+							<param name="X" type="float"/>
+							<param name="Y" type="float"/>
+							<param name="Z" type="float"/>
+						</accessor>
+					</technique_common>
+				</source>
+				<source id="OpenVCE">
+					<float_array id="OpenVCE-array" count="30" digits="2490374">-3.39746e-06 -1 0 1 -3.41982e-06 0 3.39746e-06 1 0 -1 3.41982e-06 0 -3.39746e-06 -1 -0 -3.39746e-06 -1 0 1 -3.41982e-06 0 3.39746e-06 1 0 -1 3.41982e-06 0 -3.39746e-06 -1 0</float_array>
+					<technique_common>
+						<accessor count="10" source="#OpenVCE-array" stride="3">
+							<param name="X" type="float"/>
+							<param name="Y" type="float"/>
+							<param name="Z" type="float"/>
+						</accessor>
+					</technique_common>
+				</source>
+				<vertices id="OpenVCE">
+					<input semantic="POSITION" source="#OpenVCE%20-%20Expo%20pavilion%20-%20lhs%20left%20doorGeom-positions"/>
+				</vertices>
+				<triangles count="14" material="mtl">
+					<input offset="0" semantic="VERTEX" source="OpenVCE%20-%20Expo%20pavilion%20-%20lhs%20left%20doorGeom-vertices" set="0"/>
+					<input offset="1" semantic="NORMAL" source="OpenVCE%20-%20Expo%20pavilion%20-%20lhs%20left%20doorGeom-normals" set="0"/>
+					<p>2 0 1 0 0 0 3 0 2 0 0 0 5 5 6 5 7 5 5 5 7 5 8 5 5 5 0 0 1 1 5 5 1 1 6 6 6 6 1 1 2 2 6 6 2 2 7 7 7 7 2 2 3 3 7 7 3 3 8 8 8 8 3 3 4 4 8 8 4 4 9 9 9 9 4 4 0 0 9 9 0 0 5 5</p>
+				</triangles>
+			</mesh>
+		</geometry>
+	</library_geometries>
+	<library_geometries>
+		<geometry id="cz">
+			<mesh>
+				<source id="cz">
+					<float_array id="cz-array" count="30" digits="2490374">-5.00002 -3.99999 -0.05 4.99999 -4.00002 -0.05 5.00002 3.99999 -0.05 -4.99999 4.00002 -0.05 -5.00002 -3.99999 -0.05 -5.00002 -3.99999 0.05 4.99999 -4.00002 0.05 5.00002 3.99999 0.05 -4.99999 4.00002 0.05 -5.00002 -3.99999 0.05</float_array>
+					<technique_common>
+						<accessor count="10" source="#cz-array" stride="3">
+							<param name="X" type="float"/>
+							<param name="Y" type="float"/>
+							<param name="Z" type="float"/>
+						</accessor>
+					</technique_common>
+				</source>
+				<source id="cz">
+					<float_array id="cz-array" count="30" digits="2490374">-3.39746e-06 -1 0 1 -3.41982e-06 0 3.39746e-06 1 0 -1 3.41982e-06 0 -3.39746e-06 -1 -0 -3.39746e-06 -1 0 1 -3.41982e-06 0 3.39746e-06 1 0 -1 3.41982e-06 0 -3.39746e-06 -1 0</float_array>
+					<technique_common>
+						<accessor count="10" source="#cz-array" stride="3">
+							<param name="X" type="float"/>
+							<param name="Y" type="float"/>
+							<param name="Z" type="float"/>
+						</accessor>
+					</technique_common>
+				</source>
+				<vertices id="cz">
+					<input semantic="POSITION" source="#cz%20OV%20wallGeom-positions"/>
+				</vertices>
+				<triangles count="14" material="mtl">
+					<input offset="0" semantic="VERTEX" source="cz%20OV%20wallGeom-vertices" set="0"/>
+					<input offset="1" semantic="NORMAL" source="cz%20OV%20wallGeom-normals" set="0"/>
+					<p>2 0 1 0 0 0 3 0 2 0 0 0 5 5 6 5 7 5 5 5 7 5 8 5 5 5 0 0 1 1 5 5 1 1 6 6 6 6 1 1 2 2 6 6 2 2 7 7 7 7 2 2 3 3 7 7 3 3 8 8 8 8 3 3 4 4 8 8 4 4 9 9 9 9 4 4 0 0 9 9 0 0 5 5</p>
+				</triangles>
+			</mesh>
+		</geometry>
+	</library_geometries>
+	<library_geometries>
+		<geometry id="OV">
+			<mesh>
+				<source id="OV">
+					<float_array id="OV-array" count="30" digits="2490374">-5.00002 -3.99999 -0.05 4.99999 -4.00002 -0.05 5.00002 3.99999 -0.05 -4.99999 4.00002 -0.05 -5.00002 -3.99999 -0.05 -5.00002 -3.99999 0.05 4.99999 -4.00002 0.05 5.00002 3.99999 0.05 -4.99999 4.00002 0.05 -5.00002 -3.99999 0.05</float_array>
+					<technique_common>
+						<accessor count="10" source="#OV-array" stride="3">
+							<param name="X" type="float"/>
+							<param name="Y" type="float"/>
+							<param name="Z" type="float"/>
+						</accessor>
+					</technique_common>
+				</source>
+				<source id="OV">
+					<float_array id="OV-array" count="30" digits="2490374">-3.39746e-06 -1 0 1 -3.41982e-06 0 3.39746e-06 1 0 -1 3.41982e-06 0 -3.39746e-06 -1 -0 -3.39746e-06 -1 0 1 -3.41982e-06 0 3.39746e-06 1 0 -1 3.41982e-06 0 -3.39746e-06 -1 0</float_array>
+					<technique_common>
+						<accessor count="10" source="#OV-array" stride="3">
+							<param name="X" type="float"/>
+							<param name="Y" type="float"/>
+							<param name="Z" type="float"/>
+						</accessor>
+					</technique_common>
+				</source>
+				<vertices id="OV">
+					<input semantic="POSITION" source="#OV%20optional%20link%20unitGeom-positions"/>
+				</vertices>
+				<triangles count="14" material="mtl">
+					<input offset="0" semantic="VERTEX" source="OV%20optional%20link%20unitGeom-vertices" set="0"/>
+					<input offset="1" semantic="NORMAL" source="OV%20optional%20link%20unitGeom-normals" set="0"/>
+					<p>2 0 1 0 0 0 3 0 2 0 0 0 5 5 6 5 7 5 5 5 7 5 8 5 5 5 0 0 1 1 5 5 1 1 6 6 6 6 1 1 2 2 6 6 2 2 7 7 7 7 2 2 3 3 7 7 3 3 8 8 8 8 3 3 4 4 8 8 4 4 9 9 9 9 4 4 0 0 9 9 0 0 5 5</p>
+				</triangles>
+			</mesh>
+		</geometry>
+	</library_geometries>
+	<library_visual_scenes>
+		<visual_scene id="OpenVCE">
+			<node id="OpenVCE">
+				<instance_geometry url="#OpenVCE%20-%20Expo%20Pavilion%20-%20ConnectorGeom"/>
+			</node>
+			<node id="OpenVCE">
+				<instance_geometry url="#OpenVCE%20-%20Expo%20pavilion%20-%20central%20entranceGeom"/>
+			</node>
+			<node id="OpenVCE">
+				<instance_geometry url="#OpenVCE%20-%20Expo%20pavilion%20-%20lhs%20left%20doorGeom"/>
+			</node>
+			<node id="cz">
+				<instance_geometry url="#cz%20OV%20wallGeom"/>
+			</node>
+			<node id="cz">
+				<instance_geometry url="#cz%20OV%20wallGeom"/>
+			</node>
+			<node id="OV">
+				<instance_geometry url="#OV%20optional%20link%20unitGeom"/>
+			</node>
+			<node id="OpenVCE">
+				<instance_geometry url="#OpenVCE%20-%20Expo%20pavilion%20-%20lhs%20left%20doorGeom"/>
+			</node>
+			<node id="OpenVCE">
+				<instance_geometry url="#OpenVCE%20-%20Expo%20pavillion%20connector%20-%20galleryGeom"/>
+			</node>
+			<node id="OpenVCE">
+				<instance_geometry url="#OpenVCE%20-%20Expo%20pavilion%20-%20lhs%20left%20doorGeom"/>
+			</node>
+			<node id="OpenVCE">
+				<instance_geometry url="#OpenVCE%20-%20Expo%20pavillion%20connectorGeom"/>
+			</node>
+			<node id="cz">
+				<instance_geometry url="#cz%20OV%20floorGeom"/>
+			</node>
+			<node id="cz">
+				<instance_geometry url="#cz%20OV%20floorGeom"/>
+			</node>
+			<node id="OpenVCE">
+				<instance_geometry url="#OpenVCE%20-%20Expo%20pavilion%20-%20lhs%20left%20doorGeom"/>
+			</node>
+			<node id="cz">
+				<instance_geometry url="#cz%20OV%20wallGeom"/>
+			</node>
+			<node id="OV">
+				<instance_geometry url="#OV%20optional%20link%20unitGeom"/>
+			</node>
+		</visual_scene>
+	</library_visual_scenes>
+	<scene>
+		<instance_visual_scene url="#OpenVCE%20-%20Expo%20Pavilion%20-%20Connector_128-192-022__d642b955-7ffd-4a36-baff-da6b0408cddfScene"/>
+	</scene>
+</COLLADA>

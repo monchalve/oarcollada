@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<COLLADA xmlns="http://www.collada.org/2008/03/COLLADASchema" version="1.5.0">
+	<asset>
+		<created>2008-02-23T13:30:00Z</created>
+		<modified>2008-02-23T13:30:00Z</modified>
+	</asset>
+	<library_geometries>
+		<geometry id="floorblock">
+			<mesh>
+				<source id="floorblock">
+					<float_array id="floorblock-array" count="24" digits="2490374">0 0 -0.25 4.00002 3.99999 -0.25 -3.99999 4.00002 -0.25 -3.99999 4.00002 -0.25 0 0 0.25 4.00002 3.99999 0.25 -3.99999 4.00002 0.25 -3.99999 4.00002 0.25</float_array>
+					<technique_common>
+						<accessor count="8" source="#floorblock-array" stride="3">
+							<param name="X" type="float"/>
+							<param name="Y" type="float"/>
+							<param name="Z" type="float"/>
+						</accessor>
+					</technique_common>
+				</source>
+				<source id="floorblock">
+					<float_array id="floorblock-array" count="24" digits="2490374">0 0 1 3.39746e-06 1 0 -1 3.41982e-06 0 -3.39746e-06 -1 -0 0 0 1 3.39746e-06 1 0 -1 3.41982e-06 0 -3.39746e-06 -1 0</float_array>
+					<technique_common>
+						<accessor count="8" source="#floorblock-array" stride="3">
+							<param name="X" type="float"/>
+							<param name="Y" type="float"/>
+							<param name="Z" type="float"/>
+						</accessor>
+					</technique_common>
+				</source>
+				<vertices id="floorblock">
+					<input semantic="POSITION" source="#floorblock%20Geom-positions"/>
+				</vertices>
+				<triangles count="14" material="mtl">
+					<input offset="0" semantic="VERTEX" source="floorblock%20Geom-vertices" set="0"/>
+					<input offset="1" semantic="NORMAL" source="floorblock%20Geom-normals" set="0"/>
+					<p>1 0 0 0 0 0 2 0 1 0 0 0 3 0 2 0 0 0 4 4 4 4 5 4 4 4 5 4 6 4 4 4 6 4 7 4 4 4 0 0 1 1 4 4 1 1 5 5 5 5 1 1 2 2 5 5 2 2 6 6 6 6 2 2 3 3 6 6 3 3 7 7 7 7 3 3 0 0 7 7 0 0 4 4</p>
+				</triangles>
+			</mesh>
+		</geometry>
+	</library_geometries>
+	<library_visual_scenes>
+		<visual_scene id="floorblock">
+			<node id="floorblock">
+				<instance_geometry url="#floorblock%20Geom"/>
+			</node>
+		</visual_scene>
+	</library_visual_scenes>
+	<scene>
+		<instance_visual_scene url="#floorblock%20_152-112-022__5bfcf229-1d53-4a68-9de1-7026682c5ee2Scene"/>
+	</scene>
+</COLLADA>

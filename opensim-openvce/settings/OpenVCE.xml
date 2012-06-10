@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-16"?>
+<RegionSettings>
+  <General>
+    <AllowDamage>False</AllowDamage>
+    <AllowLandResell>True</AllowLandResell>
+    <AllowLandJoinDivide>True</AllowLandJoinDivide>
+    <BlockFly>False</BlockFly>
+    <BlockLandShowInSearch>False</BlockLandShowInSearch>
+    <BlockTerraform>False</BlockTerraform>
+    <DisableCollisions>False</DisableCollisions>
+    <DisablePhysics>False</DisablePhysics>
+    <DisableScripts>False</DisableScripts>
+    <MaturityRating>1</MaturityRating>
+    <RestrictPushing>False</RestrictPushing>
+    <AgentLimit>40</AgentLimit>
+    <ObjectBonus>1</ObjectBonus>
+  </General>
+  <GroundTextures>
+    <Texture1>7c2ee836-dc42-4100-be85-ff983385d78b</Texture1>
+    <Texture2>abb783e6-3e93-26c0-248a-247666855da3</Texture2>
+    <Texture3>179cdabd-398a-9b6b-1391-4dc333ba321f</Texture3>
+    <Texture4>beb169c7-11ea-fff2-efe5-0f24dc881df2</Texture4>
+    <ElevationLowSW>8</ElevationLowSW>
+    <ElevationLowNW>8</ElevationLowNW>
+    <ElevationLowSE>18</ElevationLowSE>
+    <ElevationLowNE>8</ElevationLowNE>
+    <ElevationHighSW>40</ElevationHighSW>
+    <ElevationHighNW>40</ElevationHighNW>
+    <ElevationHighSE>40</ElevationHighSE>
+    <ElevationHighNE>40</ElevationHighNE>
+  </GroundTextures>
+  <Terrain>
+    <WaterHeight>20</WaterHeight>
+    <TerrainRaiseLimit>100</TerrainRaiseLimit>
+    <TerrainLowerLimit>-100</TerrainLowerLimit>
+    <UseEstateSun>True</UseEstateSun>
+    <FixedSun>False</FixedSun>
+  </Terrain>
+</RegionSettings>

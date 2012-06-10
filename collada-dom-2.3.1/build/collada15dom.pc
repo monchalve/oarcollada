@@ -1,0 +1,14 @@
+# Package Information for pkg-config
+
+prefix=/usr/local
+exec_prefix=/usr/local/bin
+libdir=/usr/local/lib
+includedir=/usr/local/include/collada-dom
+
+Name: collada15dom
+Description: COLLADA 1.5 Document Object Model (DOM)
+Version: 2.3.1
+URL:  http://sourceforge.net/projects/collada-dom
+Libs: -L${libdir} -lcollada15dom
+Libs.private:
+Cflags: -I${includedir} -I${includedir}/1.5

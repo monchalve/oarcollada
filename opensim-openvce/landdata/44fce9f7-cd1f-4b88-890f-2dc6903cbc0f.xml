@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-16"?>
+<LandData>
+  <Area>65536</Area>
+  <AuctionID>0</AuctionID>
+  <AuthBuyerID>00000000-0000-0000-0000-000000000000</AuthBuyerID>
+  <Category>0</Category>
+  <ClaimDate>1278413721</ClaimDate>
+  <ClaimPrice>0</ClaimPrice>
+  <GlobalID>44fce9f7-cd1f-4b88-890f-2dc6903cbc0f</GlobalID>
+  <GroupID>00000000-0000-0000-0000-000000000000</GroupID>
+  <IsGroupOwned>False</IsGroupOwned>
+  <Bitmap>//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////8=</Bitmap>
+  <Description />
+  <Flags>134258779</Flags>
+  <LandingType>0</LandingType>
+  <Name>Your Parcel</Name>
+  <Status>0</Status>
+  <LocalID>1</LocalID>
+  <MediaAutoScale>1</MediaAutoScale>
+  <MediaID>8b5fec65-8d8d-9dc5-cda8-8fdf2716e361</MediaID>
+  <MediaURL>rtsp://media.aiai.ed.ac.uk:554/iroom.sdp</MediaURL>
+  <MusicURL />
+  <OwnerID>155adad4-8975-4706-b95f-fa75af0678c5</OwnerID>
+  <ParcelAccessList />
+  <PassHours>0</PassHours>
+  <PassPrice>0</PassPrice>
+  <SalePrice>0</SalePrice>
+  <SnapshotID>00000000-0000-0000-0000-000000000000</SnapshotID>
+  <UserLocation>&lt;0, 0, 0&gt;</UserLocation>
+  <UserLookAt>&lt;0, 0, 0&gt;</UserLookAt>
+  <Dwell>0</Dwell>
+  <OtherCleanTime>0</OtherCleanTime>
+</LandData>

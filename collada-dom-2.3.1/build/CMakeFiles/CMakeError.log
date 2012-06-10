@@ -1,0 +1,67 @@
+Determining if the include file windows.h exists failed with the following output:
+Change Dir: /Users/anmorales1/Desktop/OAR:COLLADA/collada-dom-2.3.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/opt/local/bin/gmake "cmTryCompileExec/fast"
+/opt/local/bin/gmake -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+gmake[1]: Entering directory `/Users/anmorales1/Desktop/OAR:COLLADA/collada-dom-2.3.1/build/CMakeFiles/CMakeTmp'
+/opt/local/bin/cmake -E cmake_progress_report /Users/anmorales1/Desktop/OAR:COLLADA/collada-dom-2.3.1/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.c.o
+/usr/bin/gcc   -mmacosx-version-min=10.7       -o CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.c.o   -c /Users/anmorales1/Desktop/OAR:COLLADA/collada-dom-2.3.1/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/Users/anmorales1/Desktop/OAR:COLLADA/collada-dom-2.3.1/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:21: error: windows.h: No such file or directory
+gmake[1]: *** [CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.c.o] Error 1
+gmake[1]: Leaving directory `/Users/anmorales1/Desktop/OAR:COLLADA/collada-dom-2.3.1/build/CMakeFiles/CMakeTmp'
+gmake: *** [cmTryCompileExec/fast] Error 2
+
+
+Determining if the include file type_traits.h exists failed with the following output:
+Change Dir: /Users/anmorales1/Desktop/OAR:COLLADA/collada-dom-2.3.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/opt/local/bin/gmake "cmTryCompileExec/fast"
+/opt/local/bin/gmake -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+gmake[1]: Entering directory `/Users/anmorales1/Desktop/OAR:COLLADA/collada-dom-2.3.1/build/CMakeFiles/CMakeTmp'
+/opt/local/bin/cmake -E cmake_progress_report /Users/anmorales1/Desktop/OAR:COLLADA/collada-dom-2.3.1/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++    -mmacosx-version-min=10.7       -o CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.cxx.o -c /Users/anmorales1/Desktop/OAR:COLLADA/collada-dom-2.3.1/build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+/Users/anmorales1/Desktop/OAR:COLLADA/collada-dom-2.3.1/build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx:1:25: error: type_traits.h: No such file or directory
+gmake[1]: *** [CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.cxx.o] Error 1
+gmake[1]: Leaving directory `/Users/anmorales1/Desktop/OAR:COLLADA/collada-dom-2.3.1/build/CMakeFiles/CMakeTmp'
+gmake: *** [cmTryCompileExec/fast] Error 2
+
+
+Determining if the include file bits/type_traits.h exists failed with the following output:
+Change Dir: /Users/anmorales1/Desktop/OAR:COLLADA/collada-dom-2.3.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/opt/local/bin/gmake "cmTryCompileExec/fast"
+/opt/local/bin/gmake -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+gmake[1]: Entering directory `/Users/anmorales1/Desktop/OAR:COLLADA/collada-dom-2.3.1/build/CMakeFiles/CMakeTmp'
+/opt/local/bin/cmake -E cmake_progress_report /Users/anmorales1/Desktop/OAR:COLLADA/collada-dom-2.3.1/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++    -mmacosx-version-min=10.7       -o CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.cxx.o -c /Users/anmorales1/Desktop/OAR:COLLADA/collada-dom-2.3.1/build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+/Users/anmorales1/Desktop/OAR:COLLADA/collada-dom-2.3.1/build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx:1:30: error: bits/type_traits.h: No such file or directory
+gmake[1]: *** [CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.cxx.o] Error 1
+gmake[1]: Leaving directory `/Users/anmorales1/Desktop/OAR:COLLADA/collada-dom-2.3.1/build/CMakeFiles/CMakeTmp'
+gmake: *** [cmTryCompileExec/fast] Error 2
+
+
+Determining if the function _strtoi64 exists failed with the following output:
+Change Dir: /Users/anmorales1/Desktop/OAR:COLLADA/collada-dom-2.3.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/opt/local/bin/gmake "cmTryCompileExec/fast"
+/opt/local/bin/gmake -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+gmake[1]: Entering directory `/Users/anmorales1/Desktop/OAR:COLLADA/collada-dom-2.3.1/build/CMakeFiles/CMakeTmp'
+/opt/local/bin/cmake -E cmake_progress_report /Users/anmorales1/Desktop/OAR:COLLADA/collada-dom-2.3.1/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -mmacosx-version-min=10.7    -DCHECK_FUNCTION_EXISTS=_strtoi64   -o CMakeFiles/cmTryCompileExec.dir/CheckFunctionExists.c.o   -c /opt/local/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec.dir/link.txt --verbose=1
+/usr/bin/gcc   -mmacosx-version-min=10.7    -DCHECK_FUNCTION_EXISTS=_strtoi64 -Wl,-search_paths_first -headerpad_max_install_names  CMakeFiles/cmTryCompileExec.dir/CheckFunctionExists.c.o  -o cmTryCompileExec  
+Undefined symbols for architecture x86_64:
+  "__strtoi64", referenced from:
+      _main in CheckFunctionExists.c.o
+ld: symbol(s) not found for architecture x86_64
+collect2: ld returned 1 exit status
+gmake[1]: *** [cmTryCompileExec] Error 1
+gmake[1]: Leaving directory `/Users/anmorales1/Desktop/OAR:COLLADA/collada-dom-2.3.1/build/CMakeFiles/CMakeTmp'
+gmake: *** [cmTryCompileExec/fast] Error 2
+
+

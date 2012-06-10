@@ -1,0 +1,458 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<COLLADA xmlns="http://www.collada.org/2008/03/COLLADASchema" version="1.5.0">
+	<asset>
+		<created>2008-02-23T13:30:00Z</created>
+		<modified>2008-02-23T13:30:00Z</modified>
+	</asset>
+	<library_geometries>
+		<geometry id="NW3">
+			<mesh>
+				<source id="NW3">
+					<float_array id="NW3-array" count="30" digits="2490374">0 0 -0.25 3.99999 -4.00002 -0.25 4.00002 3.99999 -0.25 -3.99999 4.00002 -0.25 -3.99999 4.00002 -0.25 0 0 0.25 3.99999 -4.00002 0.25 4.00002 3.99999 0.25 -3.99999 4.00002 0.25 -3.99999 4.00002 0.25</float_array>
+					<technique_common>
+						<accessor count="10" source="#NW3-array" stride="3">
+							<param name="X" type="float"/>
+							<param name="Y" type="float"/>
+							<param name="Z" type="float"/>
+						</accessor>
+					</technique_common>
+				</source>
+				<source id="NW3">
+					<float_array id="NW3-array" count="30" digits="2490374">0 0 1 1 -3.41982e-06 0 3.39746e-06 1 0 -1 3.41982e-06 0 -3.39746e-06 -1 -0 0 0 1 1 -3.41982e-06 0 3.39746e-06 1 0 -1 3.41982e-06 0 -3.39746e-06 -1 0</float_array>
+					<technique_common>
+						<accessor count="10" source="#NW3-array" stride="3">
+							<param name="X" type="float"/>
+							<param name="Y" type="float"/>
+							<param name="Z" type="float"/>
+						</accessor>
+					</technique_common>
+				</source>
+				<vertices id="NW3">
+					<input semantic="POSITION" source="#NW3%20diagonal%20floor%20path%20with%20railsGeom-positions"/>
+				</vertices>
+				<triangles count="18" material="mtl">
+					<input offset="0" semantic="VERTEX" source="NW3%20diagonal%20floor%20path%20with%20railsGeom-vertices" set="0"/>
+					<input offset="1" semantic="NORMAL" source="NW3%20diagonal%20floor%20path%20with%20railsGeom-normals" set="0"/>
+					<p>1 0 0 0 0 0 2 0 1 0 0 0 3 0 2 0 0 0 4 0 3 0 0 0 5 5 5 5 6 5 5 5 6 5 7 5 5 5 7 5 8 5 5 5 8 5 9 5 5 5 0 0 1 1 5 5 1 1 6 6 6 6 1 1 2 2 6 6 2 2 7 7 7 7 2 2 3 3 7 7 3 3 8 8 8 8 3 3 4 4 8 8 4 4 9 9 9 9 4 4 0 0 9 9 0 0 5 5</p>
+				</triangles>
+			</mesh>
+		</geometry>
+	</library_geometries>
+	<library_geometries>
+		<geometry id="floorblockGeom">
+			<mesh>
+				<source id="floorblockGeom-positions">
+					<float_array id="floorblockGeom-positions-array" count="30" digits="2490374">-4.00002 -3.99999 -0.25 3.99999 -4.00002 -0.25 4.00002 3.99999 -0.25 -3.99999 4.00002 -0.25 -4.00002 -3.99999 -0.25 -4.00002 -3.99999 0.25 3.99999 -4.00002 0.25 4.00002 3.99999 0.25 -3.99999 4.00002 0.25 -4.00002 -3.99999 0.25</float_array>
+					<technique_common>
+						<accessor count="10" source="#floorblockGeom-positions-array" stride="3">
+							<param name="X" type="float"/>
+							<param name="Y" type="float"/>
+							<param name="Z" type="float"/>
+						</accessor>
+					</technique_common>
+				</source>
+				<source id="floorblockGeom-normals">
+					<float_array id="floorblockGeom-normals-array" count="30" digits="2490374">-3.39746e-06 -1 0 1 -3.41982e-06 0 3.39746e-06 1 0 -1 3.41982e-06 0 -3.39746e-06 -1 -0 -3.39746e-06 -1 0 1 -3.41982e-06 0 3.39746e-06 1 0 -1 3.41982e-06 0 -3.39746e-06 -1 0</float_array>
+					<technique_common>
+						<accessor count="10" source="#floorblockGeom-normals-array" stride="3">
+							<param name="X" type="float"/>
+							<param name="Y" type="float"/>
+							<param name="Z" type="float"/>
+						</accessor>
+					</technique_common>
+				</source>
+				<vertices id="floorblockGeom-vertices">
+					<input semantic="POSITION" source="#floorblockGeom-positions"/>
+				</vertices>
+				<triangles count="14" material="mtl">
+					<input offset="0" semantic="VERTEX" source="floorblockGeom-vertices" set="0"/>
+					<input offset="1" semantic="NORMAL" source="floorblockGeom-normals" set="0"/>
+					<p>2 0 1 0 0 0 3 0 2 0 0 0 5 5 6 5 7 5 5 5 7 5 8 5 5 5 0 0 1 1 5 5 1 1 6 6 6 6 1 1 2 2 6 6 2 2 7 7 7 7 2 2 3 3 7 7 3 3 8 8 8 8 3 3 4 4 8 8 4 4 9 9 9 9 4 4 0 0 9 9 0 0 5 5</p>
+				</triangles>
+			</mesh>
+		</geometry>
+	</library_geometries>
+	<library_geometries>
+		<geometry id="floorblockGeom">
+			<mesh>
+				<source id="floorblockGeom-positions">
+					<float_array id="floorblockGeom-positions-array" count="30" digits="2490374">0 0 -0.25 -4.00002 -3.99999 -0.25 3.99999 -4.00002 -0.25 4.00002 3.99999 -0.25 4.00002 3.99999 -0.25 0 0 0.25 -4.00002 -3.99999 0.25 3.99999 -4.00002 0.25 4.00002 3.99999 0.25 4.00002 3.99999 0.25</float_array>
+					<technique_common>
+						<accessor count="10" source="#floorblockGeom-positions-array" stride="3">
+							<param name="X" type="float"/>
+							<param name="Y" type="float"/>
+							<param name="Z" type="float"/>
+						</accessor>
+					</technique_common>
+				</source>
+				<source id="floorblockGeom-normals">
+					<float_array id="floorblockGeom-normals-array" count="30" digits="2490374">0 0 1 -3.39746e-06 -1 0 1 -3.41982e-06 0 3.39746e-06 1 0 -1 3.41982e-06 -0 0 0 1 -3.39746e-06 -1 0 1 -3.41982e-06 0 3.39746e-06 1 0 -1 3.41982e-06 0</float_array>
+					<technique_common>
+						<accessor count="10" source="#floorblockGeom-normals-array" stride="3">
+							<param name="X" type="float"/>
+							<param name="Y" type="float"/>
+							<param name="Z" type="float"/>
+						</accessor>
+					</technique_common>
+				</source>
+				<vertices id="floorblockGeom-vertices">
+					<input semantic="POSITION" source="#floorblockGeom-positions"/>
+				</vertices>
+				<triangles count="16" material="mtl">
+					<input offset="0" semantic="VERTEX" source="floorblockGeom-vertices" set="0"/>
+					<input offset="1" semantic="NORMAL" source="floorblockGeom-normals" set="0"/>
+					<p>2 0 1 0 0 0 3 0 2 0 0 0 4 0 3 0 0 0 5 5 6 5 7 5 5 5 7 5 8 5 5 5 8 5 9 5 5 5 0 0 1 1 5 5 1 1 6 6 6 6 1 1 2 2 6 6 2 2 7 7 7 7 2 2 3 3 7 7 3 3 8 8 8 8 3 3 4 4 8 8 4 4 9 9 9 9 4 4 0 0 9 9 0 0 5 5</p>
+				</triangles>
+			</mesh>
+		</geometry>
+	</library_geometries>
+	<library_geometries>
+		<geometry id="floorblockGeom">
+			<mesh>
+				<source id="floorblockGeom-positions">
+					<float_array id="floorblockGeom-positions-array" count="30" digits="2490374">-4.00002 -3.99999 -0.25 3.99999 -4.00002 -0.25 4.00002 3.99999 -0.25 -3.99999 4.00002 -0.25 -4.00002 -3.99999 -0.25 -4.00002 -3.99999 0.25 3.99999 -4.00002 0.25 4.00002 3.99999 0.25 -3.99999 4.00002 0.25 -4.00002 -3.99999 0.25</float_array>
+					<technique_common>
+						<accessor count="10" source="#floorblockGeom-positions-array" stride="3">
+							<param name="X" type="float"/>
+							<param name="Y" type="float"/>
+							<param name="Z" type="float"/>
+						</accessor>
+					</technique_common>
+				</source>
+				<source id="floorblockGeom-normals">
+					<float_array id="floorblockGeom-normals-array" count="30" digits="2490374">-3.39746e-06 -1 0 1 -3.41982e-06 0 3.39746e-06 1 0 -1 3.41982e-06 0 -3.39746e-06 -1 -0 -3.39746e-06 -1 0 1 -3.41982e-06 0 3.39746e-06 1 0 -1 3.41982e-06 0 -3.39746e-06 -1 0</float_array>
+					<technique_common>
+						<accessor count="10" source="#floorblockGeom-normals-array" stride="3">
+							<param name="X" type="float"/>
+							<param name="Y" type="float"/>
+							<param name="Z" type="float"/>
+						</accessor>
+					</technique_common>
+				</source>
+				<vertices id="floorblockGeom-vertices">
+					<input semantic="POSITION" source="#floorblockGeom-positions"/>
+				</vertices>
+				<triangles count="14" material="mtl">
+					<input offset="0" semantic="VERTEX" source="floorblockGeom-vertices" set="0"/>
+					<input offset="1" semantic="NORMAL" source="floorblockGeom-normals" set="0"/>
+					<p>2 0 1 0 0 0 3 0 2 0 0 0 5 5 6 5 7 5 5 5 7 5 8 5 5 5 0 0 1 1 5 5 1 1 6 6 6 6 1 1 2 2 6 6 2 2 7 7 7 7 2 2 3 3 7 7 3 3 8 8 8 8 3 3 4 4 8 8 4 4 9 9 9 9 4 4 0 0 9 9 0 0 5 5</p>
+				</triangles>
+			</mesh>
+		</geometry>
+	</library_geometries>
+	<library_geometries>
+		<geometry id="floorblockGeom">
+			<mesh>
+				<source id="floorblockGeom-positions">
+					<float_array id="floorblockGeom-positions-array" count="30" digits="2490374">0 0 -0.25 -4.00002 -3.99999 -0.25 3.99999 -4.00002 -0.25 4.00002 3.99999 -0.25 4.00002 3.99999 -0.25 0 0 0.25 -4.00002 -3.99999 0.25 3.99999 -4.00002 0.25 4.00002 3.99999 0.25 4.00002 3.99999 0.25</float_array>
+					<technique_common>
+						<accessor count="10" source="#floorblockGeom-positions-array" stride="3">
+							<param name="X" type="float"/>
+							<param name="Y" type="float"/>
+							<param name="Z" type="float"/>
+						</accessor>
+					</technique_common>
+				</source>
+				<source id="floorblockGeom-normals">
+					<float_array id="floorblockGeom-normals-array" count="30" digits="2490374">0 0 1 -3.39746e-06 -1 0 1 -3.41982e-06 0 3.39746e-06 1 0 -1 3.41982e-06 -0 0 0 1 -3.39746e-06 -1 0 1 -3.41982e-06 0 3.39746e-06 1 0 -1 3.41982e-06 0</float_array>
+					<technique_common>
+						<accessor count="10" source="#floorblockGeom-normals-array" stride="3">
+							<param name="X" type="float"/>
+							<param name="Y" type="float"/>
+							<param name="Z" type="float"/>
+						</accessor>
+					</technique_common>
+				</source>
+				<vertices id="floorblockGeom-vertices">
+					<input semantic="POSITION" source="#floorblockGeom-positions"/>
+				</vertices>
+				<triangles count="16" material="mtl">
+					<input offset="0" semantic="VERTEX" source="floorblockGeom-vertices" set="0"/>
+					<input offset="1" semantic="NORMAL" source="floorblockGeom-normals" set="0"/>
+					<p>2 0 1 0 0 0 3 0 2 0 0 0 4 0 3 0 0 0 5 5 6 5 7 5 5 5 7 5 8 5 5 5 8 5 9 5 5 5 0 0 1 1 5 5 1 1 6 6 6 6 1 1 2 2 6 6 2 2 7 7 7 7 2 2 3 3 7 7 3 3 8 8 8 8 3 3 4 4 8 8 4 4 9 9 9 9 4 4 0 0 9 9 0 0 5 5</p>
+				</triangles>
+			</mesh>
+		</geometry>
+	</library_geometries>
+	<library_geometries>
+		<geometry id="floorblockGeom">
+			<mesh>
+				<source id="floorblockGeom-positions">
+					<float_array id="floorblockGeom-positions-array" count="30" digits="2490374">0 0 -0.25 -4.00002 -3.99999 -0.25 3.99999 -4.00002 -0.25 4.00002 3.99999 -0.25 4.00002 3.99999 -0.25 0 0 0.25 -4.00002 -3.99999 0.25 3.99999 -4.00002 0.25 4.00002 3.99999 0.25 4.00002 3.99999 0.25</float_array>
+					<technique_common>
+						<accessor count="10" source="#floorblockGeom-positions-array" stride="3">
+							<param name="X" type="float"/>
+							<param name="Y" type="float"/>
+							<param name="Z" type="float"/>
+						</accessor>
+					</technique_common>
+				</source>
+				<source id="floorblockGeom-normals">
+					<float_array id="floorblockGeom-normals-array" count="30" digits="2490374">0 0 1 -3.39746e-06 -1 0 1 -3.41982e-06 0 3.39746e-06 1 0 -1 3.41982e-06 -0 0 0 1 -3.39746e-06 -1 0 1 -3.41982e-06 0 3.39746e-06 1 0 -1 3.41982e-06 0</float_array>
+					<technique_common>
+						<accessor count="10" source="#floorblockGeom-normals-array" stride="3">
+							<param name="X" type="float"/>
+							<param name="Y" type="float"/>
+							<param name="Z" type="float"/>
+						</accessor>
+					</technique_common>
+				</source>
+				<vertices id="floorblockGeom-vertices">
+					<input semantic="POSITION" source="#floorblockGeom-positions"/>
+				</vertices>
+				<triangles count="16" material="mtl">
+					<input offset="0" semantic="VERTEX" source="floorblockGeom-vertices" set="0"/>
+					<input offset="1" semantic="NORMAL" source="floorblockGeom-normals" set="0"/>
+					<p>2 0 1 0 0 0 3 0 2 0 0 0 4 0 3 0 0 0 5 5 6 5 7 5 5 5 7 5 8 5 5 5 8 5 9 5 5 5 0 0 1 1 5 5 1 1 6 6 6 6 1 1 2 2 6 6 2 2 7 7 7 7 2 2 3 3 7 7 3 3 8 8 8 8 3 3 4 4 8 8 4 4 9 9 9 9 4 4 0 0 9 9 0 0 5 5</p>
+				</triangles>
+			</mesh>
+		</geometry>
+	</library_geometries>
+	<library_geometries>
+		<geometry id="floorblockGeom">
+			<mesh>
+				<source id="floorblockGeom-positions">
+					<float_array id="floorblockGeom-positions-array" count="24" digits="2490374">0 0 -0.25 4.00002 3.99999 -0.25 -3.99999 4.00002 -0.25 -4.00002 -3.99999 -0.25 0 0 0.25 4.00002 3.99999 0.25 -3.99999 4.00002 0.25 -4.00002 -3.99999 0.25</float_array>
+					<technique_common>
+						<accessor count="8" source="#floorblockGeom-positions-array" stride="3">
+							<param name="X" type="float"/>
+							<param name="Y" type="float"/>
+							<param name="Z" type="float"/>
+						</accessor>
+					</technique_common>
+				</source>
+				<source id="floorblockGeom-normals">
+					<float_array id="floorblockGeom-normals-array" count="24" digits="2490374">0 0 1 3.39746e-06 1 0 -1 3.41982e-06 0 -3.39746e-06 -1 -0 0 0 1 3.39746e-06 1 0 -1 3.41982e-06 0 -3.39746e-06 -1 0</float_array>
+					<technique_common>
+						<accessor count="8" source="#floorblockGeom-normals-array" stride="3">
+							<param name="X" type="float"/>
+							<param name="Y" type="float"/>
+							<param name="Z" type="float"/>
+						</accessor>
+					</technique_common>
+				</source>
+				<vertices id="floorblockGeom-vertices">
+					<input semantic="POSITION" source="#floorblockGeom-positions"/>
+				</vertices>
+				<triangles count="14" material="mtl">
+					<input offset="0" semantic="VERTEX" source="floorblockGeom-vertices" set="0"/>
+					<input offset="1" semantic="NORMAL" source="floorblockGeom-normals" set="0"/>
+					<p>1 0 0 0 0 0 2 0 1 0 0 0 3 0 2 0 0 0 4 4 4 4 5 4 4 4 5 4 6 4 4 4 6 4 7 4 4 4 0 0 1 1 4 4 1 1 5 5 5 5 1 1 2 2 5 5 2 2 6 6 6 6 2 2 3 3 6 6 3 3 7 7 7 7 3 3 0 0 7 7 0 0 4 4</p>
+				</triangles>
+			</mesh>
+		</geometry>
+	</library_geometries>
+	<library_geometries>
+		<geometry id="floorblockGeom">
+			<mesh>
+				<source id="floorblockGeom-positions">
+					<float_array id="floorblockGeom-positions-array" count="30" digits="2490374">-4.00002 -3.99999 -0.25 3.99999 -4.00002 -0.25 4.00002 3.99999 -0.25 -3.99999 4.00002 -0.25 -4.00002 -3.99999 -0.25 -4.00002 -3.99999 0.25 3.99999 -4.00002 0.25 4.00002 3.99999 0.25 -3.99999 4.00002 0.25 -4.00002 -3.99999 0.25</float_array>
+					<technique_common>
+						<accessor count="10" source="#floorblockGeom-positions-array" stride="3">
+							<param name="X" type="float"/>
+							<param name="Y" type="float"/>
+							<param name="Z" type="float"/>
+						</accessor>
+					</technique_common>
+				</source>
+				<source id="floorblockGeom-normals">
+					<float_array id="floorblockGeom-normals-array" count="30" digits="2490374">-3.39746e-06 -1 0 1 -3.41982e-06 0 3.39746e-06 1 0 -1 3.41982e-06 0 -3.39746e-06 -1 -0 -3.39746e-06 -1 0 1 -3.41982e-06 0 3.39746e-06 1 0 -1 3.41982e-06 0 -3.39746e-06 -1 0</float_array>
+					<technique_common>
+						<accessor count="10" source="#floorblockGeom-normals-array" stride="3">
+							<param name="X" type="float"/>
+							<param name="Y" type="float"/>
+							<param name="Z" type="float"/>
+						</accessor>
+					</technique_common>
+				</source>
+				<vertices id="floorblockGeom-vertices">
+					<input semantic="POSITION" source="#floorblockGeom-positions"/>
+				</vertices>
+				<triangles count="14" material="mtl">
+					<input offset="0" semantic="VERTEX" source="floorblockGeom-vertices" set="0"/>
+					<input offset="1" semantic="NORMAL" source="floorblockGeom-normals" set="0"/>
+					<p>2 0 1 0 0 0 3 0 2 0 0 0 5 5 6 5 7 5 5 5 7 5 8 5 5 5 0 0 1 1 5 5 1 1 6 6 6 6 1 1 2 2 6 6 2 2 7 7 7 7 2 2 3 3 7 7 3 3 8 8 8 8 3 3 4 4 8 8 4 4 9 9 9 9 4 4 0 0 9 9 0 0 5 5</p>
+				</triangles>
+			</mesh>
+		</geometry>
+	</library_geometries>
+	<library_geometries>
+		<geometry id="floorblockGeom">
+			<mesh>
+				<source id="floorblockGeom-positions">
+					<float_array id="floorblockGeom-positions-array" count="30" digits="2490374">-4.00002 -3.99999 -0.25 3.99999 -4.00002 -0.25 4.00002 3.99999 -0.25 -3.99999 4.00002 -0.25 -4.00002 -3.99999 -0.25 -4.00002 -3.99999 0.25 3.99999 -4.00002 0.25 4.00002 3.99999 0.25 -3.99999 4.00002 0.25 -4.00002 -3.99999 0.25</float_array>
+					<technique_common>
+						<accessor count="10" source="#floorblockGeom-positions-array" stride="3">
+							<param name="X" type="float"/>
+							<param name="Y" type="float"/>
+							<param name="Z" type="float"/>
+						</accessor>
+					</technique_common>
+				</source>
+				<source id="floorblockGeom-normals">
+					<float_array id="floorblockGeom-normals-array" count="30" digits="2490374">-3.39746e-06 -1 0 1 -3.41982e-06 0 3.39746e-06 1 0 -1 3.41982e-06 0 -3.39746e-06 -1 -0 -3.39746e-06 -1 0 1 -3.41982e-06 0 3.39746e-06 1 0 -1 3.41982e-06 0 -3.39746e-06 -1 0</float_array>
+					<technique_common>
+						<accessor count="10" source="#floorblockGeom-normals-array" stride="3">
+							<param name="X" type="float"/>
+							<param name="Y" type="float"/>
+							<param name="Z" type="float"/>
+						</accessor>
+					</technique_common>
+				</source>
+				<vertices id="floorblockGeom-vertices">
+					<input semantic="POSITION" source="#floorblockGeom-positions"/>
+				</vertices>
+				<triangles count="14" material="mtl">
+					<input offset="0" semantic="VERTEX" source="floorblockGeom-vertices" set="0"/>
+					<input offset="1" semantic="NORMAL" source="floorblockGeom-normals" set="0"/>
+					<p>2 0 1 0 0 0 3 0 2 0 0 0 5 5 6 5 7 5 5 5 7 5 8 5 5 5 0 0 1 1 5 5 1 1 6 6 6 6 1 1 2 2 6 6 2 2 7 7 7 7 2 2 3 3 7 7 3 3 8 8 8 8 3 3 4 4 8 8 4 4 9 9 9 9 4 4 0 0 9 9 0 0 5 5</p>
+				</triangles>
+			</mesh>
+		</geometry>
+	</library_geometries>
+	<library_geometries>
+		<geometry id="diagonal">
+			<mesh>
+				<source id="diagonal">
+					<float_array id="diagonal-array" count="30" digits="2490374">0 0 -0.25 3.99999 -4.00002 -0.25 4.00002 3.99999 -0.25 -3.99999 4.00002 -0.25 -3.99999 4.00002 -0.25 0 0 0.25 3.99999 -4.00002 0.25 4.00002 3.99999 0.25 -3.99999 4.00002 0.25 -3.99999 4.00002 0.25</float_array>
+					<technique_common>
+						<accessor count="10" source="#diagonal-array" stride="3">
+							<param name="X" type="float"/>
+							<param name="Y" type="float"/>
+							<param name="Z" type="float"/>
+						</accessor>
+					</technique_common>
+				</source>
+				<source id="diagonal">
+					<float_array id="diagonal-array" count="30" digits="2490374">0 0 1 1 -3.41982e-06 0 3.39746e-06 1 0 -1 3.41982e-06 0 -3.39746e-06 -1 -0 0 0 1 1 -3.41982e-06 0 3.39746e-06 1 0 -1 3.41982e-06 0 -3.39746e-06 -1 0</float_array>
+					<technique_common>
+						<accessor count="10" source="#diagonal-array" stride="3">
+							<param name="X" type="float"/>
+							<param name="Y" type="float"/>
+							<param name="Z" type="float"/>
+						</accessor>
+					</technique_common>
+				</source>
+				<vertices id="diagonal">
+					<input semantic="POSITION" source="#diagonal%20floor%20path%20with%20railsGeom-positions"/>
+				</vertices>
+				<triangles count="18" material="mtl">
+					<input offset="0" semantic="VERTEX" source="diagonal%20floor%20path%20with%20railsGeom-vertices" set="0"/>
+					<input offset="1" semantic="NORMAL" source="diagonal%20floor%20path%20with%20railsGeom-normals" set="0"/>
+					<p>1 0 0 0 0 0 2 0 1 0 0 0 3 0 2 0 0 0 4 0 3 0 0 0 5 5 5 5 6 5 5 5 6 5 7 5 5 5 7 5 8 5 5 5 8 5 9 5 5 5 0 0 1 1 5 5 1 1 6 6 6 6 1 1 2 2 6 6 2 2 7 7 7 7 2 2 3 3 7 7 3 3 8 8 8 8 3 3 4 4 8 8 4 4 9 9 9 9 4 4 0 0 9 9 0 0 5 5</p>
+				</triangles>
+			</mesh>
+		</geometry>
+	</library_geometries>
+	<library_geometries>
+		<geometry id="floorblockGeom">
+			<mesh>
+				<source id="floorblockGeom-positions">
+					<float_array id="floorblockGeom-positions-array" count="30" digits="2490374">0 0 -0.25 -4.00002 -3.99999 -0.25 3.99999 -4.00002 -0.25 4.00002 3.99999 -0.25 4.00002 3.99999 -0.25 0 0 0.25 -4.00002 -3.99999 0.25 3.99999 -4.00002 0.25 4.00002 3.99999 0.25 4.00002 3.99999 0.25</float_array>
+					<technique_common>
+						<accessor count="10" source="#floorblockGeom-positions-array" stride="3">
+							<param name="X" type="float"/>
+							<param name="Y" type="float"/>
+							<param name="Z" type="float"/>
+						</accessor>
+					</technique_common>
+				</source>
+				<source id="floorblockGeom-normals">
+					<float_array id="floorblockGeom-normals-array" count="30" digits="2490374">0 0 1 -3.39746e-06 -1 0 1 -3.41982e-06 0 3.39746e-06 1 0 -1 3.41982e-06 -0 0 0 1 -3.39746e-06 -1 0 1 -3.41982e-06 0 3.39746e-06 1 0 -1 3.41982e-06 0</float_array>
+					<technique_common>
+						<accessor count="10" source="#floorblockGeom-normals-array" stride="3">
+							<param name="X" type="float"/>
+							<param name="Y" type="float"/>
+							<param name="Z" type="float"/>
+						</accessor>
+					</technique_common>
+				</source>
+				<vertices id="floorblockGeom-vertices">
+					<input semantic="POSITION" source="#floorblockGeom-positions"/>
+				</vertices>
+				<triangles count="16" material="mtl">
+					<input offset="0" semantic="VERTEX" source="floorblockGeom-vertices" set="0"/>
+					<input offset="1" semantic="NORMAL" source="floorblockGeom-normals" set="0"/>
+					<p>2 0 1 0 0 0 3 0 2 0 0 0 4 0 3 0 0 0 5 5 6 5 7 5 5 5 7 5 8 5 5 5 8 5 9 5 5 5 0 0 1 1 5 5 1 1 6 6 6 6 1 1 2 2 6 6 2 2 7 7 7 7 2 2 3 3 7 7 3 3 8 8 8 8 3 3 4 4 8 8 4 4 9 9 9 9 4 4 0 0 9 9 0 0 5 5</p>
+				</triangles>
+			</mesh>
+		</geometry>
+	</library_geometries>
+	<library_geometries>
+		<geometry id="floorblockGeom">
+			<mesh>
+				<source id="floorblockGeom-positions">
+					<float_array id="floorblockGeom-positions-array" count="24" digits="2490374">0 0 -0.25 4.00002 3.99999 -0.25 -3.99999 4.00002 -0.25 -4.00002 -3.99999 -0.25 0 0 0.25 4.00002 3.99999 0.25 -3.99999 4.00002 0.25 -4.00002 -3.99999 0.25</float_array>
+					<technique_common>
+						<accessor count="8" source="#floorblockGeom-positions-array" stride="3">
+							<param name="X" type="float"/>
+							<param name="Y" type="float"/>
+							<param name="Z" type="float"/>
+						</accessor>
+					</technique_common>
+				</source>
+				<source id="floorblockGeom-normals">
+					<float_array id="floorblockGeom-normals-array" count="24" digits="2490374">0 0 1 3.39746e-06 1 0 -1 3.41982e-06 0 -3.39746e-06 -1 -0 0 0 1 3.39746e-06 1 0 -1 3.41982e-06 0 -3.39746e-06 -1 0</float_array>
+					<technique_common>
+						<accessor count="8" source="#floorblockGeom-normals-array" stride="3">
+							<param name="X" type="float"/>
+							<param name="Y" type="float"/>
+							<param name="Z" type="float"/>
+						</accessor>
+					</technique_common>
+				</source>
+				<vertices id="floorblockGeom-vertices">
+					<input semantic="POSITION" source="#floorblockGeom-positions"/>
+				</vertices>
+				<triangles count="14" material="mtl">
+					<input offset="0" semantic="VERTEX" source="floorblockGeom-vertices" set="0"/>
+					<input offset="1" semantic="NORMAL" source="floorblockGeom-normals" set="0"/>
+					<p>1 0 0 0 0 0 2 0 1 0 0 0 3 0 2 0 0 0 4 4 4 4 5 4 4 4 5 4 6 4 4 4 6 4 7 4 4 4 0 0 1 1 4 4 1 1 5 5 5 5 1 1 2 2 5 5 2 2 6 6 6 6 2 2 3 3 6 6 3 3 7 7 7 7 3 3 0 0 7 7 0 0 4 4</p>
+				</triangles>
+			</mesh>
+		</geometry>
+	</library_geometries>
+	<library_visual_scenes>
+		<visual_scene id="NW3">
+			<node id="NW3">
+				<instance_geometry url="#NW3%20diagonal%20floor%20path%20with%20railsGeom"/>
+			</node>
+			<node id="floorblockNode">
+				<instance_geometry url="#floorblockGeom"/>
+			</node>
+			<node id="floorblockNode">
+				<instance_geometry url="#floorblockGeom"/>
+			</node>
+			<node id="floorblockNode">
+				<instance_geometry url="#floorblockGeom"/>
+			</node>
+			<node id="floorblockNode">
+				<instance_geometry url="#floorblockGeom"/>
+			</node>
+			<node id="floorblockNode">
+				<instance_geometry url="#floorblockGeom"/>
+			</node>
+			<node id="floorblockNode">
+				<instance_geometry url="#floorblockGeom"/>
+			</node>
+			<node id="floorblockNode">
+				<instance_geometry url="#floorblockGeom"/>
+			</node>
+			<node id="floorblockNode">
+				<instance_geometry url="#floorblockGeom"/>
+			</node>
+			<node id="diagonal">
+				<instance_geometry url="#diagonal%20floor%20path%20with%20railsGeom"/>
+			</node>
+			<node id="floorblockNode">
+				<instance_geometry url="#floorblockGeom"/>
+			</node>
+			<node id="floorblockNode">
+				<instance_geometry url="#floorblockGeom"/>
+			</node>
+		</visual_scene>
+	</library_visual_scenes>
+	<scene>
+		<instance_visual_scene url="#NW3%20diagonal%20floor%20path%20with%20rails_044-204-022__421986f4-97be-4282-a2b4-2120921d9011Scene"/>
+	</scene>
+</COLLADA>

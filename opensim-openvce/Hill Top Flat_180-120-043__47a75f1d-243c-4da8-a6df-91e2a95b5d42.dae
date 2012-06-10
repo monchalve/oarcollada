@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<COLLADA xmlns="http://www.collada.org/2008/03/COLLADASchema" version="1.5.0">
+	<asset>
+		<created>2008-02-23T13:30:00Z</created>
+		<modified>2008-02-23T13:30:00Z</modified>
+	</asset>
+	<library_geometries>
+		<geometry id="Hill">
+			<mesh>
+				<source id="Hill">
+					<float_array id="Hill-array" count="30" digits="2490374">-5.00002 -4.99999 -0.25 4.99999 -5.00002 -0.25 5.00002 4.99999 -0.25 -4.99999 5.00002 -0.25 -5.00002 -4.99999 -0.25 -5.00002 -4.99999 0.25 4.99999 -5.00002 0.25 5.00002 4.99999 0.25 -4.99999 5.00002 0.25 -5.00002 -4.99999 0.25</float_array>
+					<technique_common>
+						<accessor count="10" source="#Hill-array" stride="3">
+							<param name="X" type="float"/>
+							<param name="Y" type="float"/>
+							<param name="Z" type="float"/>
+						</accessor>
+					</technique_common>
+				</source>
+				<source id="Hill">
+					<float_array id="Hill-array" count="30" digits="2490374">-3.39746e-06 -1 0 1 -3.41982e-06 0 3.39746e-06 1 0 -1 3.41982e-06 0 -3.39746e-06 -1 -0 -3.39746e-06 -1 0 1 -3.41982e-06 0 3.39746e-06 1 0 -1 3.41982e-06 0 -3.39746e-06 -1 0</float_array>
+					<technique_common>
+						<accessor count="10" source="#Hill-array" stride="3">
+							<param name="X" type="float"/>
+							<param name="Y" type="float"/>
+							<param name="Z" type="float"/>
+						</accessor>
+					</technique_common>
+				</source>
+				<vertices id="Hill">
+					<input semantic="POSITION" source="#Hill%20Top%20FlatGeom-positions"/>
+				</vertices>
+				<triangles count="14" material="mtl">
+					<input offset="0" semantic="VERTEX" source="Hill%20Top%20FlatGeom-vertices" set="0"/>
+					<input offset="1" semantic="NORMAL" source="Hill%20Top%20FlatGeom-normals" set="0"/>
+					<p>2 0 1 0 0 0 3 0 2 0 0 0 5 5 6 5 7 5 5 5 7 5 8 5 5 5 0 0 1 1 5 5 1 1 6 6 6 6 1 1 2 2 6 6 2 2 7 7 7 7 2 2 3 3 7 7 3 3 8 8 8 8 3 3 4 4 8 8 4 4 9 9 9 9 4 4 0 0 9 9 0 0 5 5</p>
+				</triangles>
+			</mesh>
+		</geometry>
+	</library_geometries>
+	<library_visual_scenes>
+		<visual_scene id="Hill">
+			<node id="Hill">
+				<instance_geometry url="#Hill%20Top%20FlatGeom"/>
+			</node>
+		</visual_scene>
+	</library_visual_scenes>
+	<scene>
+		<instance_visual_scene url="#Hill%20Top%20Flat_180-120-043__47a75f1d-243c-4da8-a6df-91e2a95b5d42Scene"/>
+	</scene>
+</COLLADA>

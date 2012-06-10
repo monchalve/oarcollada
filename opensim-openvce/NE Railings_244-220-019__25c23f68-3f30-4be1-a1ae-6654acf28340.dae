@@ -1,0 +1,458 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<COLLADA xmlns="http://www.collada.org/2008/03/COLLADASchema" version="1.5.0">
+	<asset>
+		<created>2008-02-23T13:30:00Z</created>
+		<modified>2008-02-23T13:30:00Z</modified>
+	</asset>
+	<library_geometries>
+		<geometry id="NE">
+			<mesh>
+				<source id="NE">
+					<float_array id="NE-array" count="30" digits="2490374">-0.250001 -3.99999 -0.25 0.249999 -4.00002 -0.25 0.250001 3.99999 -0.25 -0.249999 4.00002 -0.25 -0.250001 -3.99999 -0.25 -0.250001 -3.99999 0.25 0.249999 -4.00002 0.25 0.250001 3.99999 0.25 -0.249999 4.00002 0.25 -0.250001 -3.99999 0.25</float_array>
+					<technique_common>
+						<accessor count="10" source="#NE-array" stride="3">
+							<param name="X" type="float"/>
+							<param name="Y" type="float"/>
+							<param name="Z" type="float"/>
+						</accessor>
+					</technique_common>
+				</source>
+				<source id="NE">
+					<float_array id="NE-array" count="30" digits="2490374">-3.39746e-06 -1 0 1 -3.41982e-06 0 3.39746e-06 1 0 -1 3.41982e-06 0 -3.39746e-06 -1 -0 -3.39746e-06 -1 0 1 -3.41982e-06 0 3.39746e-06 1 0 -1 3.41982e-06 0 -3.39746e-06 -1 0</float_array>
+					<technique_common>
+						<accessor count="10" source="#NE-array" stride="3">
+							<param name="X" type="float"/>
+							<param name="Y" type="float"/>
+							<param name="Z" type="float"/>
+						</accessor>
+					</technique_common>
+				</source>
+				<vertices id="NE">
+					<input semantic="POSITION" source="#NE%20RailingsGeom-positions"/>
+				</vertices>
+				<triangles count="14" material="mtl">
+					<input offset="0" semantic="VERTEX" source="NE%20RailingsGeom-vertices" set="0"/>
+					<input offset="1" semantic="NORMAL" source="NE%20RailingsGeom-normals" set="0"/>
+					<p>2 0 1 0 0 0 3 0 2 0 0 0 5 5 6 5 7 5 5 5 7 5 8 5 5 5 0 0 1 1 5 5 1 1 6 6 6 6 1 1 2 2 6 6 2 2 7 7 7 7 2 2 3 3 7 7 3 3 8 8 8 8 3 3 4 4 8 8 4 4 9 9 9 9 4 4 0 0 9 9 0 0 5 5</p>
+				</triangles>
+			</mesh>
+		</geometry>
+	</library_geometries>
+	<library_geometries>
+		<geometry id="OV">
+			<mesh>
+				<source id="OV">
+					<float_array id="OV-array" count="30" digits="2490374">-0.250001 -3.99999 -0.25 0.249999 -4.00002 -0.25 0.250001 3.99999 -0.25 -0.249999 4.00002 -0.25 -0.250001 -3.99999 -0.25 -0.250001 -3.99999 0.25 0.249999 -4.00002 0.25 0.250001 3.99999 0.25 -0.249999 4.00002 0.25 -0.250001 -3.99999 0.25</float_array>
+					<technique_common>
+						<accessor count="10" source="#OV-array" stride="3">
+							<param name="X" type="float"/>
+							<param name="Y" type="float"/>
+							<param name="Z" type="float"/>
+						</accessor>
+					</technique_common>
+				</source>
+				<source id="OV">
+					<float_array id="OV-array" count="30" digits="2490374">-3.39746e-06 -1 0 1 -3.41982e-06 0 3.39746e-06 1 0 -1 3.41982e-06 0 -3.39746e-06 -1 -0 -3.39746e-06 -1 0 1 -3.41982e-06 0 3.39746e-06 1 0 -1 3.41982e-06 0 -3.39746e-06 -1 0</float_array>
+					<technique_common>
+						<accessor count="10" source="#OV-array" stride="3">
+							<param name="X" type="float"/>
+							<param name="Y" type="float"/>
+							<param name="Z" type="float"/>
+						</accessor>
+					</technique_common>
+				</source>
+				<vertices id="OV">
+					<input semantic="POSITION" source="#OV%20wall%20angledGeom-positions"/>
+				</vertices>
+				<triangles count="14" material="mtl">
+					<input offset="0" semantic="VERTEX" source="OV%20wall%20angledGeom-vertices" set="0"/>
+					<input offset="1" semantic="NORMAL" source="OV%20wall%20angledGeom-normals" set="0"/>
+					<p>2 0 1 0 0 0 3 0 2 0 0 0 5 5 6 5 7 5 5 5 7 5 8 5 5 5 0 0 1 1 5 5 1 1 6 6 6 6 1 1 2 2 6 6 2 2 7 7 7 7 2 2 3 3 7 7 3 3 8 8 8 8 3 3 4 4 8 8 4 4 9 9 9 9 4 4 0 0 9 9 0 0 5 5</p>
+				</triangles>
+			</mesh>
+		</geometry>
+	</library_geometries>
+	<library_geometries>
+		<geometry id="OpenVCE">
+			<mesh>
+				<source id="OpenVCE">
+					<float_array id="OpenVCE-array" count="30" digits="2490374">-0.0750003 -3.99999 -0.075 0.0749998 -4.00002 -0.075 0.0750003 3.99999 -0.075 -0.0749998 4.00002 -0.075 -0.0750003 -3.99999 -0.075 -0.0750003 -3.99999 0.075 0.0749998 -4.00002 0.075 0.0750003 3.99999 0.075 -0.0749998 4.00002 0.075 -0.0750003 -3.99999 0.075</float_array>
+					<technique_common>
+						<accessor count="10" source="#OpenVCE-array" stride="3">
+							<param name="X" type="float"/>
+							<param name="Y" type="float"/>
+							<param name="Z" type="float"/>
+						</accessor>
+					</technique_common>
+				</source>
+				<source id="OpenVCE">
+					<float_array id="OpenVCE-array" count="30" digits="2490374">-3.39746e-06 -1 0 1 -3.41982e-06 0 3.39746e-06 1 0 -1 3.41982e-06 0 -3.39746e-06 -1 -0 -3.39746e-06 -1 0 1 -3.41982e-06 0 3.39746e-06 1 0 -1 3.41982e-06 0 -3.39746e-06 -1 0</float_array>
+					<technique_common>
+						<accessor count="10" source="#OpenVCE-array" stride="3">
+							<param name="X" type="float"/>
+							<param name="Y" type="float"/>
+							<param name="Z" type="float"/>
+						</accessor>
+					</technique_common>
+				</source>
+				<vertices id="OpenVCE">
+					<input semantic="POSITION" source="#OpenVCE%20-%20straight%20rail%2024mGeom-positions"/>
+				</vertices>
+				<triangles count="14" material="mtl">
+					<input offset="0" semantic="VERTEX" source="OpenVCE%20-%20straight%20rail%2024mGeom-vertices" set="0"/>
+					<input offset="1" semantic="NORMAL" source="OpenVCE%20-%20straight%20rail%2024mGeom-normals" set="0"/>
+					<p>2 0 1 0 0 0 3 0 2 0 0 0 5 5 6 5 7 5 5 5 7 5 8 5 5 5 0 0 1 1 5 5 1 1 6 6 6 6 1 1 2 2 6 6 2 2 7 7 7 7 2 2 3 3 7 7 3 3 8 8 8 8 3 3 4 4 8 8 4 4 9 9 9 9 4 4 0 0 9 9 0 0 5 5</p>
+				</triangles>
+			</mesh>
+		</geometry>
+	</library_geometries>
+	<library_geometries>
+		<geometry id="railGeom">
+			<mesh>
+				<source id="railGeom-positions">
+					<float_array id="railGeom-positions-array" count="30" digits="2490374">-0.0750003 -3.87475 -0.075 0.0749998 -3.87478 -0.075 0.0750003 3.87475 -0.075 -0.0749998 3.87478 -0.075 -0.0750003 -3.87475 -0.075 -0.0750003 -3.87475 0.075 0.0749998 -3.87478 0.075 0.0750003 3.87475 0.075 -0.0749998 3.87478 0.075 -0.0750003 -3.87475 0.075</float_array>
+					<technique_common>
+						<accessor count="10" source="#railGeom-positions-array" stride="3">
+							<param name="X" type="float"/>
+							<param name="Y" type="float"/>
+							<param name="Z" type="float"/>
+						</accessor>
+					</technique_common>
+				</source>
+				<source id="railGeom-normals">
+					<float_array id="railGeom-normals-array" count="30" digits="2490374">-3.39746e-06 -1 0 1 -3.41982e-06 0 3.39746e-06 1 0 -1 3.41982e-06 0 -3.39746e-06 -1 -0 -3.39746e-06 -1 0 1 -3.41982e-06 0 3.39746e-06 1 0 -1 3.41982e-06 0 -3.39746e-06 -1 0</float_array>
+					<technique_common>
+						<accessor count="10" source="#railGeom-normals-array" stride="3">
+							<param name="X" type="float"/>
+							<param name="Y" type="float"/>
+							<param name="Z" type="float"/>
+						</accessor>
+					</technique_common>
+				</source>
+				<vertices id="railGeom-vertices">
+					<input semantic="POSITION" source="#railGeom-positions"/>
+				</vertices>
+				<triangles count="14" material="mtl">
+					<input offset="0" semantic="VERTEX" source="railGeom-vertices" set="0"/>
+					<input offset="1" semantic="NORMAL" source="railGeom-normals" set="0"/>
+					<p>2 0 1 0 0 0 3 0 2 0 0 0 5 5 6 5 7 5 5 5 7 5 8 5 5 5 0 0 1 1 5 5 1 1 6 6 6 6 1 1 2 2 6 6 2 2 7 7 7 7 2 2 3 3 7 7 3 3 8 8 8 8 3 3 4 4 8 8 4 4 9 9 9 9 4 4 0 0 9 9 0 0 5 5</p>
+				</triangles>
+			</mesh>
+		</geometry>
+	</library_geometries>
+	<library_geometries>
+		<geometry id="railGeom">
+			<mesh>
+				<source id="railGeom-positions">
+					<float_array id="railGeom-positions-array" count="30" digits="2490374">-0.0750003 -3.87475 -0.075 0.0749998 -3.87478 -0.075 0.0750003 3.87475 -0.075 -0.0749998 3.87478 -0.075 -0.0750003 -3.87475 -0.075 -0.0750003 -3.87475 0.075 0.0749998 -3.87478 0.075 0.0750003 3.87475 0.075 -0.0749998 3.87478 0.075 -0.0750003 -3.87475 0.075</float_array>
+					<technique_common>
+						<accessor count="10" source="#railGeom-positions-array" stride="3">
+							<param name="X" type="float"/>
+							<param name="Y" type="float"/>
+							<param name="Z" type="float"/>
+						</accessor>
+					</technique_common>
+				</source>
+				<source id="railGeom-normals">
+					<float_array id="railGeom-normals-array" count="30" digits="2490374">-3.39746e-06 -1 0 1 -3.41982e-06 0 3.39746e-06 1 0 -1 3.41982e-06 0 -3.39746e-06 -1 -0 -3.39746e-06 -1 0 1 -3.41982e-06 0 3.39746e-06 1 0 -1 3.41982e-06 0 -3.39746e-06 -1 0</float_array>
+					<technique_common>
+						<accessor count="10" source="#railGeom-normals-array" stride="3">
+							<param name="X" type="float"/>
+							<param name="Y" type="float"/>
+							<param name="Z" type="float"/>
+						</accessor>
+					</technique_common>
+				</source>
+				<vertices id="railGeom-vertices">
+					<input semantic="POSITION" source="#railGeom-positions"/>
+				</vertices>
+				<triangles count="14" material="mtl">
+					<input offset="0" semantic="VERTEX" source="railGeom-vertices" set="0"/>
+					<input offset="1" semantic="NORMAL" source="railGeom-normals" set="0"/>
+					<p>2 0 1 0 0 0 3 0 2 0 0 0 5 5 6 5 7 5 5 5 7 5 8 5 5 5 0 0 1 1 5 5 1 1 6 6 6 6 1 1 2 2 6 6 2 2 7 7 7 7 2 2 3 3 7 7 3 3 8 8 8 8 3 3 4 4 8 8 4 4 9 9 9 9 4 4 0 0 9 9 0 0 5 5</p>
+				</triangles>
+			</mesh>
+		</geometry>
+	</library_geometries>
+	<library_geometries>
+		<geometry id="OpenVCE">
+			<mesh>
+				<source id="OpenVCE">
+					<float_array id="OpenVCE-array" count="30" digits="2490374">-0.0750003 -3.99999 -0.075 0.0749998 -4.00002 -0.075 0.0750003 3.99999 -0.075 -0.0749998 4.00002 -0.075 -0.0750003 -3.99999 -0.075 -0.0750003 -3.99999 0.075 0.0749998 -4.00002 0.075 0.0750003 3.99999 0.075 -0.0749998 4.00002 0.075 -0.0750003 -3.99999 0.075</float_array>
+					<technique_common>
+						<accessor count="10" source="#OpenVCE-array" stride="3">
+							<param name="X" type="float"/>
+							<param name="Y" type="float"/>
+							<param name="Z" type="float"/>
+						</accessor>
+					</technique_common>
+				</source>
+				<source id="OpenVCE">
+					<float_array id="OpenVCE-array" count="30" digits="2490374">-3.39746e-06 -1 0 1 -3.41982e-06 0 3.39746e-06 1 0 -1 3.41982e-06 0 -3.39746e-06 -1 -0 -3.39746e-06 -1 0 1 -3.41982e-06 0 3.39746e-06 1 0 -1 3.41982e-06 0 -3.39746e-06 -1 0</float_array>
+					<technique_common>
+						<accessor count="10" source="#OpenVCE-array" stride="3">
+							<param name="X" type="float"/>
+							<param name="Y" type="float"/>
+							<param name="Z" type="float"/>
+						</accessor>
+					</technique_common>
+				</source>
+				<vertices id="OpenVCE">
+					<input semantic="POSITION" source="#OpenVCE%20-%20straight%20rail%2024mGeom-positions"/>
+				</vertices>
+				<triangles count="14" material="mtl">
+					<input offset="0" semantic="VERTEX" source="OpenVCE%20-%20straight%20rail%2024mGeom-vertices" set="0"/>
+					<input offset="1" semantic="NORMAL" source="OpenVCE%20-%20straight%20rail%2024mGeom-normals" set="0"/>
+					<p>2 0 1 0 0 0 3 0 2 0 0 0 5 5 6 5 7 5 5 5 7 5 8 5 5 5 0 0 1 1 5 5 1 1 6 6 6 6 1 1 2 2 6 6 2 2 7 7 7 7 2 2 3 3 7 7 3 3 8 8 8 8 3 3 4 4 8 8 4 4 9 9 9 9 4 4 0 0 9 9 0 0 5 5</p>
+				</triangles>
+			</mesh>
+		</geometry>
+	</library_geometries>
+	<library_geometries>
+		<geometry id="postGeom">
+			<mesh>
+				<source id="postGeom-positions">
+					<float_array id="postGeom-positions-array" count="30" digits="2490374">-0.250001 -3.99999 -0.25 0.249999 -4.00002 -0.25 0.250001 3.99999 -0.25 -0.249999 4.00002 -0.25 -0.250001 -3.99999 -0.25 -0.250001 -3.99999 0.25 0.249999 -4.00002 0.25 0.250001 3.99999 0.25 -0.249999 4.00002 0.25 -0.250001 -3.99999 0.25</float_array>
+					<technique_common>
+						<accessor count="10" source="#postGeom-positions-array" stride="3">
+							<param name="X" type="float"/>
+							<param name="Y" type="float"/>
+							<param name="Z" type="float"/>
+						</accessor>
+					</technique_common>
+				</source>
+				<source id="postGeom-normals">
+					<float_array id="postGeom-normals-array" count="30" digits="2490374">-3.39746e-06 -1 0 1 -3.41982e-06 0 3.39746e-06 1 0 -1 3.41982e-06 0 -3.39746e-06 -1 -0 -3.39746e-06 -1 0 1 -3.41982e-06 0 3.39746e-06 1 0 -1 3.41982e-06 0 -3.39746e-06 -1 0</float_array>
+					<technique_common>
+						<accessor count="10" source="#postGeom-normals-array" stride="3">
+							<param name="X" type="float"/>
+							<param name="Y" type="float"/>
+							<param name="Z" type="float"/>
+						</accessor>
+					</technique_common>
+				</source>
+				<vertices id="postGeom-vertices">
+					<input semantic="POSITION" source="#postGeom-positions"/>
+				</vertices>
+				<triangles count="14" material="mtl">
+					<input offset="0" semantic="VERTEX" source="postGeom-vertices" set="0"/>
+					<input offset="1" semantic="NORMAL" source="postGeom-normals" set="0"/>
+					<p>2 0 1 0 0 0 3 0 2 0 0 0 5 5 6 5 7 5 5 5 7 5 8 5 5 5 0 0 1 1 5 5 1 1 6 6 6 6 1 1 2 2 6 6 2 2 7 7 7 7 2 2 3 3 7 7 3 3 8 8 8 8 3 3 4 4 8 8 4 4 9 9 9 9 4 4 0 0 9 9 0 0 5 5</p>
+				</triangles>
+			</mesh>
+		</geometry>
+	</library_geometries>
+	<library_geometries>
+		<geometry id="postGeom">
+			<mesh>
+				<source id="postGeom-positions">
+					<float_array id="postGeom-positions-array" count="30" digits="2490374">-0.250001 -3.99999 -0.25 0.249999 -4.00002 -0.25 0.250001 3.99999 -0.25 -0.249999 4.00002 -0.25 -0.250001 -3.99999 -0.25 -0.250001 -3.99999 0.25 0.249999 -4.00002 0.25 0.250001 3.99999 0.25 -0.249999 4.00002 0.25 -0.250001 -3.99999 0.25</float_array>
+					<technique_common>
+						<accessor count="10" source="#postGeom-positions-array" stride="3">
+							<param name="X" type="float"/>
+							<param name="Y" type="float"/>
+							<param name="Z" type="float"/>
+						</accessor>
+					</technique_common>
+				</source>
+				<source id="postGeom-normals">
+					<float_array id="postGeom-normals-array" count="30" digits="2490374">-3.39746e-06 -1 0 1 -3.41982e-06 0 3.39746e-06 1 0 -1 3.41982e-06 0 -3.39746e-06 -1 -0 -3.39746e-06 -1 0 1 -3.41982e-06 0 3.39746e-06 1 0 -1 3.41982e-06 0 -3.39746e-06 -1 0</float_array>
+					<technique_common>
+						<accessor count="10" source="#postGeom-normals-array" stride="3">
+							<param name="X" type="float"/>
+							<param name="Y" type="float"/>
+							<param name="Z" type="float"/>
+						</accessor>
+					</technique_common>
+				</source>
+				<vertices id="postGeom-vertices">
+					<input semantic="POSITION" source="#postGeom-positions"/>
+				</vertices>
+				<triangles count="14" material="mtl">
+					<input offset="0" semantic="VERTEX" source="postGeom-vertices" set="0"/>
+					<input offset="1" semantic="NORMAL" source="postGeom-normals" set="0"/>
+					<p>2 0 1 0 0 0 3 0 2 0 0 0 5 5 6 5 7 5 5 5 7 5 8 5 5 5 0 0 1 1 5 5 1 1 6 6 6 6 1 1 2 2 6 6 2 2 7 7 7 7 2 2 3 3 7 7 3 3 8 8 8 8 3 3 4 4 8 8 4 4 9 9 9 9 4 4 0 0 9 9 0 0 5 5</p>
+				</triangles>
+			</mesh>
+		</geometry>
+	</library_geometries>
+	<library_geometries>
+		<geometry id="railGeom">
+			<mesh>
+				<source id="railGeom-positions">
+					<float_array id="railGeom-positions-array" count="30" digits="2490374">-0.0750003 -3.87475 -0.075 0.0749998 -3.87478 -0.075 0.0750003 3.87475 -0.075 -0.0749998 3.87478 -0.075 -0.0750003 -3.87475 -0.075 -0.0750003 -3.87475 0.075 0.0749998 -3.87478 0.075 0.0750003 3.87475 0.075 -0.0749998 3.87478 0.075 -0.0750003 -3.87475 0.075</float_array>
+					<technique_common>
+						<accessor count="10" source="#railGeom-positions-array" stride="3">
+							<param name="X" type="float"/>
+							<param name="Y" type="float"/>
+							<param name="Z" type="float"/>
+						</accessor>
+					</technique_common>
+				</source>
+				<source id="railGeom-normals">
+					<float_array id="railGeom-normals-array" count="30" digits="2490374">-3.39746e-06 -1 0 1 -3.41982e-06 0 3.39746e-06 1 0 -1 3.41982e-06 0 -3.39746e-06 -1 -0 -3.39746e-06 -1 0 1 -3.41982e-06 0 3.39746e-06 1 0 -1 3.41982e-06 0 -3.39746e-06 -1 0</float_array>
+					<technique_common>
+						<accessor count="10" source="#railGeom-normals-array" stride="3">
+							<param name="X" type="float"/>
+							<param name="Y" type="float"/>
+							<param name="Z" type="float"/>
+						</accessor>
+					</technique_common>
+				</source>
+				<vertices id="railGeom-vertices">
+					<input semantic="POSITION" source="#railGeom-positions"/>
+				</vertices>
+				<triangles count="14" material="mtl">
+					<input offset="0" semantic="VERTEX" source="railGeom-vertices" set="0"/>
+					<input offset="1" semantic="NORMAL" source="railGeom-normals" set="0"/>
+					<p>2 0 1 0 0 0 3 0 2 0 0 0 5 5 6 5 7 5 5 5 7 5 8 5 5 5 0 0 1 1 5 5 1 1 6 6 6 6 1 1 2 2 6 6 2 2 7 7 7 7 2 2 3 3 7 7 3 3 8 8 8 8 3 3 4 4 8 8 4 4 9 9 9 9 4 4 0 0 9 9 0 0 5 5</p>
+				</triangles>
+			</mesh>
+		</geometry>
+	</library_geometries>
+	<library_geometries>
+		<geometry id="OpenVCE">
+			<mesh>
+				<source id="OpenVCE">
+					<float_array id="OpenVCE-array" count="30" digits="2490374">-0.0750003 -3.99999 -0.075 0.0749998 -4.00002 -0.075 0.0750003 3.99999 -0.075 -0.0749998 4.00002 -0.075 -0.0750003 -3.99999 -0.075 -0.0750003 -3.99999 0.075 0.0749998 -4.00002 0.075 0.0750003 3.99999 0.075 -0.0749998 4.00002 0.075 -0.0750003 -3.99999 0.075</float_array>
+					<technique_common>
+						<accessor count="10" source="#OpenVCE-array" stride="3">
+							<param name="X" type="float"/>
+							<param name="Y" type="float"/>
+							<param name="Z" type="float"/>
+						</accessor>
+					</technique_common>
+				</source>
+				<source id="OpenVCE">
+					<float_array id="OpenVCE-array" count="30" digits="2490374">-3.39746e-06 -1 0 1 -3.41982e-06 0 3.39746e-06 1 0 -1 3.41982e-06 0 -3.39746e-06 -1 -0 -3.39746e-06 -1 0 1 -3.41982e-06 0 3.39746e-06 1 0 -1 3.41982e-06 0 -3.39746e-06 -1 0</float_array>
+					<technique_common>
+						<accessor count="10" source="#OpenVCE-array" stride="3">
+							<param name="X" type="float"/>
+							<param name="Y" type="float"/>
+							<param name="Z" type="float"/>
+						</accessor>
+					</technique_common>
+				</source>
+				<vertices id="OpenVCE">
+					<input semantic="POSITION" source="#OpenVCE%20-%20straight%20rail%2024mGeom-positions"/>
+				</vertices>
+				<triangles count="14" material="mtl">
+					<input offset="0" semantic="VERTEX" source="OpenVCE%20-%20straight%20rail%2024mGeom-vertices" set="0"/>
+					<input offset="1" semantic="NORMAL" source="OpenVCE%20-%20straight%20rail%2024mGeom-normals" set="0"/>
+					<p>2 0 1 0 0 0 3 0 2 0 0 0 5 5 6 5 7 5 5 5 7 5 8 5 5 5 0 0 1 1 5 5 1 1 6 6 6 6 1 1 2 2 6 6 2 2 7 7 7 7 2 2 3 3 7 7 3 3 8 8 8 8 3 3 4 4 8 8 4 4 9 9 9 9 4 4 0 0 9 9 0 0 5 5</p>
+				</triangles>
+			</mesh>
+		</geometry>
+	</library_geometries>
+	<library_geometries>
+		<geometry id="postGeom">
+			<mesh>
+				<source id="postGeom-positions">
+					<float_array id="postGeom-positions-array" count="30" digits="2490374">-0.250001 -3.99999 -0.25 0.249999 -4.00002 -0.25 0.250001 3.99999 -0.25 -0.249999 4.00002 -0.25 -0.250001 -3.99999 -0.25 -0.250001 -3.99999 0.25 0.249999 -4.00002 0.25 0.250001 3.99999 0.25 -0.249999 4.00002 0.25 -0.250001 -3.99999 0.25</float_array>
+					<technique_common>
+						<accessor count="10" source="#postGeom-positions-array" stride="3">
+							<param name="X" type="float"/>
+							<param name="Y" type="float"/>
+							<param name="Z" type="float"/>
+						</accessor>
+					</technique_common>
+				</source>
+				<source id="postGeom-normals">
+					<float_array id="postGeom-normals-array" count="30" digits="2490374">-3.39746e-06 -1 0 1 -3.41982e-06 0 3.39746e-06 1 0 -1 3.41982e-06 0 -3.39746e-06 -1 -0 -3.39746e-06 -1 0 1 -3.41982e-06 0 3.39746e-06 1 0 -1 3.41982e-06 0 -3.39746e-06 -1 0</float_array>
+					<technique_common>
+						<accessor count="10" source="#postGeom-normals-array" stride="3">
+							<param name="X" type="float"/>
+							<param name="Y" type="float"/>
+							<param name="Z" type="float"/>
+						</accessor>
+					</technique_common>
+				</source>
+				<vertices id="postGeom-vertices">
+					<input semantic="POSITION" source="#postGeom-positions"/>
+				</vertices>
+				<triangles count="14" material="mtl">
+					<input offset="0" semantic="VERTEX" source="postGeom-vertices" set="0"/>
+					<input offset="1" semantic="NORMAL" source="postGeom-normals" set="0"/>
+					<p>2 0 1 0 0 0 3 0 2 0 0 0 5 5 6 5 7 5 5 5 7 5 8 5 5 5 0 0 1 1 5 5 1 1 6 6 6 6 1 1 2 2 6 6 2 2 7 7 7 7 2 2 3 3 7 7 3 3 8 8 8 8 3 3 4 4 8 8 4 4 9 9 9 9 4 4 0 0 9 9 0 0 5 5</p>
+				</triangles>
+			</mesh>
+		</geometry>
+	</library_geometries>
+	<library_geometries>
+		<geometry id="postGeom">
+			<mesh>
+				<source id="postGeom-positions">
+					<float_array id="postGeom-positions-array" count="30" digits="2490374">-0.250001 -3.99999 -0.25 0.249999 -4.00002 -0.25 0.250001 3.99999 -0.25 -0.249999 4.00002 -0.25 -0.250001 -3.99999 -0.25 -0.250001 -3.99999 0.25 0.249999 -4.00002 0.25 0.250001 3.99999 0.25 -0.249999 4.00002 0.25 -0.250001 -3.99999 0.25</float_array>
+					<technique_common>
+						<accessor count="10" source="#postGeom-positions-array" stride="3">
+							<param name="X" type="float"/>
+							<param name="Y" type="float"/>
+							<param name="Z" type="float"/>
+						</accessor>
+					</technique_common>
+				</source>
+				<source id="postGeom-normals">
+					<float_array id="postGeom-normals-array" count="30" digits="2490374">-3.39746e-06 -1 0 1 -3.41982e-06 0 3.39746e-06 1 0 -1 3.41982e-06 0 -3.39746e-06 -1 -0 -3.39746e-06 -1 0 1 -3.41982e-06 0 3.39746e-06 1 0 -1 3.41982e-06 0 -3.39746e-06 -1 0</float_array>
+					<technique_common>
+						<accessor count="10" source="#postGeom-normals-array" stride="3">
+							<param name="X" type="float"/>
+							<param name="Y" type="float"/>
+							<param name="Z" type="float"/>
+						</accessor>
+					</technique_common>
+				</source>
+				<vertices id="postGeom-vertices">
+					<input semantic="POSITION" source="#postGeom-positions"/>
+				</vertices>
+				<triangles count="14" material="mtl">
+					<input offset="0" semantic="VERTEX" source="postGeom-vertices" set="0"/>
+					<input offset="1" semantic="NORMAL" source="postGeom-normals" set="0"/>
+					<p>2 0 1 0 0 0 3 0 2 0 0 0 5 5 6 5 7 5 5 5 7 5 8 5 5 5 0 0 1 1 5 5 1 1 6 6 6 6 1 1 2 2 6 6 2 2 7 7 7 7 2 2 3 3 7 7 3 3 8 8 8 8 3 3 4 4 8 8 4 4 9 9 9 9 4 4 0 0 9 9 0 0 5 5</p>
+				</triangles>
+			</mesh>
+		</geometry>
+	</library_geometries>
+	<library_visual_scenes>
+		<visual_scene id="NE">
+			<node id="NE">
+				<instance_geometry url="#NE%20RailingsGeom"/>
+			</node>
+			<node id="OV">
+				<instance_geometry url="#OV%20wall%20angledGeom"/>
+			</node>
+			<node id="OpenVCE">
+				<instance_geometry url="#OpenVCE%20-%20straight%20rail%2024mGeom"/>
+			</node>
+			<node id="railNode">
+				<instance_geometry url="#railGeom"/>
+			</node>
+			<node id="railNode">
+				<instance_geometry url="#railGeom"/>
+			</node>
+			<node id="OpenVCE">
+				<instance_geometry url="#OpenVCE%20-%20straight%20rail%2024mGeom"/>
+			</node>
+			<node id="postNode">
+				<instance_geometry url="#postGeom"/>
+			</node>
+			<node id="postNode">
+				<instance_geometry url="#postGeom"/>
+			</node>
+			<node id="railNode">
+				<instance_geometry url="#railGeom"/>
+			</node>
+			<node id="OpenVCE">
+				<instance_geometry url="#OpenVCE%20-%20straight%20rail%2024mGeom"/>
+			</node>
+			<node id="postNode">
+				<instance_geometry url="#postGeom"/>
+			</node>
+			<node id="postNode">
+				<instance_geometry url="#postGeom"/>
+			</node>
+		</visual_scene>
+	</library_visual_scenes>
+	<scene>
+		<instance_visual_scene url="#NE%20Railings_244-220-019__25c23f68-3f30-4be1-a1ae-6654acf28340Scene"/>
+	</scene>
+</COLLADA>

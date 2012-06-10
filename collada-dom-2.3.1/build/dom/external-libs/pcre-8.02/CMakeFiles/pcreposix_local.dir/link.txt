@@ -1,0 +1,2 @@
+/usr/bin/ar cr libpcreposix_local.a  CMakeFiles/pcreposix_local.dir/pcreposix.c.o
+/usr/bin/ranlib libpcreposix_local.a

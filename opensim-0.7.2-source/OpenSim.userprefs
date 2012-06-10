@@ -1,0 +1,18 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="OpenSim/Framework/IScene.cs">
+    <Files>
+      <File FileName="OpenSim/ConsoleClient/ConsoleClient.cs" Line="151" Column="25" />
+      <File FileName="OpenSim/Region/Physics/Meshing/Meshmerizer.cs" Line="1" Column="1" />
+      <File FileName="OpenSim/Region/Physics/Meshing/PrimMesher.cs" Line="1872" Column="8" />
+      <File FileName="OpenSim/Region/Physics/Meshing/Mesh.cs" Line="16" Column="65" />
+      <File FileName="OpenSim/Framework/Configuration/XML/XmlConfiguration.cs" Line="1" Column="1" />
+      <File FileName="OpenSim/Region/Framework/Interfaces/IRegionSerialiserModule.cs" Line="1" Column="1" />
+      <File FileName="OpenSim/Framework/IScene.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

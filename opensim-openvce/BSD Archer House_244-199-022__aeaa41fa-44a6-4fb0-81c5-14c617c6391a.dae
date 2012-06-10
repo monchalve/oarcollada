@@ -1,0 +1,976 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<COLLADA xmlns="http://www.collada.org/2008/03/COLLADASchema" version="1.5.0">
+	<asset>
+		<created>2008-02-23T13:30:00Z</created>
+		<modified>2008-02-23T13:30:00Z</modified>
+	</asset>
+	<library_geometries>
+		<geometry id="BSD">
+			<mesh>
+				<source id="BSD">
+					<float_array id="BSD-array" count="30" digits="2490374">-5.00002 -4.99999 -0.75 4.99999 -5.00002 -0.75 5.00002 4.99999 -0.75 -4.99999 5.00002 -0.75 -5.00002 -4.99999 -0.75 -5.00002 -4.99999 0.75 4.99999 -5.00002 0.75 5.00002 4.99999 0.75 -4.99999 5.00002 0.75 -5.00002 -4.99999 0.75</float_array>
+					<technique_common>
+						<accessor count="10" source="#BSD-array" stride="3">
+							<param name="X" type="float"/>
+							<param name="Y" type="float"/>
+							<param name="Z" type="float"/>
+						</accessor>
+					</technique_common>
+				</source>
+				<source id="BSD">
+					<float_array id="BSD-array" count="30" digits="2490374">-3.39746e-06 -1 0 1 -3.41982e-06 0 3.39746e-06 1 0 -1 3.41982e-06 0 -3.39746e-06 -1 -0 -3.39746e-06 -1 0 1 -3.41982e-06 0 3.39746e-06 1 0 -1 3.41982e-06 0 -3.39746e-06 -1 0</float_array>
+					<technique_common>
+						<accessor count="10" source="#BSD-array" stride="3">
+							<param name="X" type="float"/>
+							<param name="Y" type="float"/>
+							<param name="Z" type="float"/>
+						</accessor>
+					</technique_common>
+				</source>
+				<vertices id="BSD">
+					<input semantic="POSITION" source="#BSD%20Archer%20HouseGeom-positions"/>
+				</vertices>
+				<triangles count="14" material="mtl">
+					<input offset="0" semantic="VERTEX" source="BSD%20Archer%20HouseGeom-vertices" set="0"/>
+					<input offset="1" semantic="NORMAL" source="BSD%20Archer%20HouseGeom-normals" set="0"/>
+					<p>2 0 1 0 0 0 3 0 2 0 0 0 5 5 6 5 7 5 5 5 7 5 8 5 5 5 0 0 1 1 5 5 1 1 6 6 6 6 1 1 2 2 6 6 2 2 7 7 7 7 2 2 3 3 7 7 3 3 8 8 8 8 3 3 4 4 8 8 4 4 9 9 9 9 4 4 0 0 9 9 0 0 5 5</p>
+				</triangles>
+			</mesh>
+		</geometry>
+	</library_geometries>
+	<library_geometries>
+		<geometry id="ObjectGeom">
+			<mesh>
+				<source id="ObjectGeom-positions">
+					<float_array id="ObjectGeom-positions-array" count="30" digits="2490374">-0.376144 -4.99999 -0.5 0.376142 -5.00002 -0.5 0.376144 4.99999 -0.5 -0.376142 5.00002 -0.5 -0.376144 -4.99999 -0.5 -0.376144 -4.99999 0.5 0.376142 -5.00002 0.5 0.376144 4.99999 0.5 -0.376142 5.00002 0.5 -0.376144 -4.99999 0.5</float_array>
+					<technique_common>
+						<accessor count="10" source="#ObjectGeom-positions-array" stride="3">
+							<param name="X" type="float"/>
+							<param name="Y" type="float"/>
+							<param name="Z" type="float"/>
+						</accessor>
+					</technique_common>
+				</source>
+				<source id="ObjectGeom-normals">
+					<float_array id="ObjectGeom-normals-array" count="30" digits="2490374">-3.39746e-06 -1 0 1 -3.41982e-06 0 3.39746e-06 1 0 -1 3.41982e-06 0 -3.39746e-06 -1 -0 -3.39746e-06 -1 0 1 -3.41982e-06 0 3.39746e-06 1 0 -1 3.41982e-06 0 -3.39746e-06 -1 0</float_array>
+					<technique_common>
+						<accessor count="10" source="#ObjectGeom-normals-array" stride="3">
+							<param name="X" type="float"/>
+							<param name="Y" type="float"/>
+							<param name="Z" type="float"/>
+						</accessor>
+					</technique_common>
+				</source>
+				<vertices id="ObjectGeom-vertices">
+					<input semantic="POSITION" source="#ObjectGeom-positions"/>
+				</vertices>
+				<triangles count="14" material="mtl">
+					<input offset="0" semantic="VERTEX" source="ObjectGeom-vertices" set="0"/>
+					<input offset="1" semantic="NORMAL" source="ObjectGeom-normals" set="0"/>
+					<p>2 0 1 0 0 0 3 0 2 0 0 0 5 5 6 5 7 5 5 5 7 5 8 5 5 5 0 0 1 1 5 5 1 1 6 6 6 6 1 1 2 2 6 6 2 2 7 7 7 7 2 2 3 3 7 7 3 3 8 8 8 8 3 3 4 4 8 8 4 4 9 9 9 9 4 4 0 0 9 9 0 0 5 5</p>
+				</triangles>
+			</mesh>
+		</geometry>
+	</library_geometries>
+	<library_geometries>
+		<geometry id="windowGeom">
+			<mesh>
+				<source id="windowGeom-positions">
+					<float_array id="windowGeom-positions-array" count="30" digits="2490374">-3.00001 -0.00499999 -3 2.99999 -0.00500002 -3 3.00001 0.00499999 -3 -2.99999 0.00500002 -3 -3.00001 -0.00499999 -3 -3.00001 -0.00499999 3 2.99999 -0.00500002 3 3.00001 0.00499999 3 -2.99999 0.00500002 3 -3.00001 -0.00499999 3</float_array>
+					<technique_common>
+						<accessor count="10" source="#windowGeom-positions-array" stride="3">
+							<param name="X" type="float"/>
+							<param name="Y" type="float"/>
+							<param name="Z" type="float"/>
+						</accessor>
+					</technique_common>
+				</source>
+				<source id="windowGeom-normals">
+					<float_array id="windowGeom-normals-array" count="30" digits="2490374">-3.39746e-06 -1 0 1 -3.41982e-06 0 3.39746e-06 1 0 -1 3.41982e-06 0 -3.39746e-06 -1 -0 -3.39746e-06 -1 0 1 -3.41982e-06 0 3.39746e-06 1 0 -1 3.41982e-06 0 -3.39746e-06 -1 0</float_array>
+					<technique_common>
+						<accessor count="10" source="#windowGeom-normals-array" stride="3">
+							<param name="X" type="float"/>
+							<param name="Y" type="float"/>
+							<param name="Z" type="float"/>
+						</accessor>
+					</technique_common>
+				</source>
+				<vertices id="windowGeom-vertices">
+					<input semantic="POSITION" source="#windowGeom-positions"/>
+				</vertices>
+				<triangles count="14" material="mtl">
+					<input offset="0" semantic="VERTEX" source="windowGeom-vertices" set="0"/>
+					<input offset="1" semantic="NORMAL" source="windowGeom-normals" set="0"/>
+					<p>2 0 1 0 0 0 3 0 2 0 0 0 5 5 6 5 7 5 5 5 7 5 8 5 5 5 0 0 1 1 5 5 1 1 6 6 6 6 1 1 2 2 6 6 2 2 7 7 7 7 2 2 3 3 7 7 3 3 8 8 8 8 3 3 4 4 8 8 4 4 9 9 9 9 4 4 0 0 9 9 0 0 5 5</p>
+				</triangles>
+			</mesh>
+		</geometry>
+	</library_geometries>
+	<library_geometries>
+		<geometry id="windowGeom">
+			<mesh>
+				<source id="windowGeom-positions">
+					<float_array id="windowGeom-positions-array" count="30" digits="2490374">-4.75002 -0.00499999 -0.504364 4.74999 -0.00500002 -0.504364 4.75002 0.00499999 -0.504364 -4.74999 0.00500002 -0.504364 -4.75002 -0.00499999 -0.504364 -4.75002 -0.00499999 0.504364 4.74999 -0.00500002 0.504364 4.75002 0.00499999 0.504364 -4.74999 0.00500002 0.504364 -4.75002 -0.00499999 0.504364</float_array>
+					<technique_common>
+						<accessor count="10" source="#windowGeom-positions-array" stride="3">
+							<param name="X" type="float"/>
+							<param name="Y" type="float"/>
+							<param name="Z" type="float"/>
+						</accessor>
+					</technique_common>
+				</source>
+				<source id="windowGeom-normals">
+					<float_array id="windowGeom-normals-array" count="30" digits="2490374">-3.39746e-06 -1 0 1 -3.41982e-06 0 3.39746e-06 1 0 -1 3.41982e-06 0 -3.39746e-06 -1 -0 -3.39746e-06 -1 0 1 -3.41982e-06 0 3.39746e-06 1 0 -1 3.41982e-06 0 -3.39746e-06 -1 0</float_array>
+					<technique_common>
+						<accessor count="10" source="#windowGeom-normals-array" stride="3">
+							<param name="X" type="float"/>
+							<param name="Y" type="float"/>
+							<param name="Z" type="float"/>
+						</accessor>
+					</technique_common>
+				</source>
+				<vertices id="windowGeom-vertices">
+					<input semantic="POSITION" source="#windowGeom-positions"/>
+				</vertices>
+				<triangles count="14" material="mtl">
+					<input offset="0" semantic="VERTEX" source="windowGeom-vertices" set="0"/>
+					<input offset="1" semantic="NORMAL" source="windowGeom-normals" set="0"/>
+					<p>2 0 1 0 0 0 3 0 2 0 0 0 5 5 6 5 7 5 5 5 7 5 8 5 5 5 0 0 1 1 5 5 1 1 6 6 6 6 1 1 2 2 6 6 2 2 7 7 7 7 2 2 3 3 7 7 3 3 8 8 8 8 3 3 4 4 8 8 4 4 9 9 9 9 4 4 0 0 9 9 0 0 5 5</p>
+				</triangles>
+			</mesh>
+		</geometry>
+	</library_geometries>
+	<library_geometries>
+		<geometry id="ObjectGeom">
+			<mesh>
+				<source id="ObjectGeom-positions">
+					<float_array id="ObjectGeom-positions-array" count="30" digits="2490374">-0.150001 -0.749996 -3.68864 0.15 -0.750001 -3.68864 0.150001 0.749996 -3.68864 -0.15 0.750001 -3.68864 -0.150001 -0.749996 -3.68864 -0.150001 -0.749996 3.68864 0.15 -0.750001 3.68864 0.150001 0.749996 3.68864 -0.15 0.750001 3.68864 -0.150001 -0.749996 3.68864</float_array>
+					<technique_common>
+						<accessor count="10" source="#ObjectGeom-positions-array" stride="3">
+							<param name="X" type="float"/>
+							<param name="Y" type="float"/>
+							<param name="Z" type="float"/>
+						</accessor>
+					</technique_common>
+				</source>
+				<source id="ObjectGeom-normals">
+					<float_array id="ObjectGeom-normals-array" count="30" digits="2490374">-3.39746e-06 -1 0 1 -3.41982e-06 0 3.39746e-06 1 0 -1 3.41982e-06 0 -3.39746e-06 -1 -0 -3.39746e-06 -1 0 1 -3.41982e-06 0 3.39746e-06 1 0 -1 3.41982e-06 0 -3.39746e-06 -1 0</float_array>
+					<technique_common>
+						<accessor count="10" source="#ObjectGeom-normals-array" stride="3">
+							<param name="X" type="float"/>
+							<param name="Y" type="float"/>
+							<param name="Z" type="float"/>
+						</accessor>
+					</technique_common>
+				</source>
+				<vertices id="ObjectGeom-vertices">
+					<input semantic="POSITION" source="#ObjectGeom-positions"/>
+				</vertices>
+				<triangles count="14" material="mtl">
+					<input offset="0" semantic="VERTEX" source="ObjectGeom-vertices" set="0"/>
+					<input offset="1" semantic="NORMAL" source="ObjectGeom-normals" set="0"/>
+					<p>2 0 1 0 0 0 3 0 2 0 0 0 5 5 6 5 7 5 5 5 7 5 8 5 5 5 0 0 1 1 5 5 1 1 6 6 6 6 1 1 2 2 6 6 2 2 7 7 7 7 2 2 3 3 7 7 3 3 8 8 8 8 3 3 4 4 8 8 4 4 9 9 9 9 4 4 0 0 9 9 0 0 5 5</p>
+				</triangles>
+			</mesh>
+		</geometry>
+	</library_geometries>
+	<library_geometries>
+		<geometry id="ObjectGeom">
+			<mesh>
+				<source id="ObjectGeom-positions">
+					<float_array id="ObjectGeom-positions-array" count="30" digits="2490374">-0.150001 -2.99999 -3.68864 0.15 -3.00001 -3.68864 0.150001 2.99999 -3.68864 -0.15 3.00001 -3.68864 -0.150001 -2.99999 -3.68864 -0.150001 -2.99999 3.68864 0.15 -3.00001 3.68864 0.150001 2.99999 3.68864 -0.15 3.00001 3.68864 -0.150001 -2.99999 3.68864</float_array>
+					<technique_common>
+						<accessor count="10" source="#ObjectGeom-positions-array" stride="3">
+							<param name="X" type="float"/>
+							<param name="Y" type="float"/>
+							<param name="Z" type="float"/>
+						</accessor>
+					</technique_common>
+				</source>
+				<source id="ObjectGeom-normals">
+					<float_array id="ObjectGeom-normals-array" count="30" digits="2490374">-3.39746e-06 -1 0 1 -3.41982e-06 0 3.39746e-06 1 0 -1 3.41982e-06 0 -3.39746e-06 -1 -0 -3.39746e-06 -1 0 1 -3.41982e-06 0 3.39746e-06 1 0 -1 3.41982e-06 0 -3.39746e-06 -1 0</float_array>
+					<technique_common>
+						<accessor count="10" source="#ObjectGeom-normals-array" stride="3">
+							<param name="X" type="float"/>
+							<param name="Y" type="float"/>
+							<param name="Z" type="float"/>
+						</accessor>
+					</technique_common>
+				</source>
+				<vertices id="ObjectGeom-vertices">
+					<input semantic="POSITION" source="#ObjectGeom-positions"/>
+				</vertices>
+				<triangles count="14" material="mtl">
+					<input offset="0" semantic="VERTEX" source="ObjectGeom-vertices" set="0"/>
+					<input offset="1" semantic="NORMAL" source="ObjectGeom-normals" set="0"/>
+					<p>2 0 1 0 0 0 3 0 2 0 0 0 5 5 6 5 7 5 5 5 7 5 8 5 5 5 0 0 1 1 5 5 1 1 6 6 6 6 1 1 2 2 6 6 2 2 7 7 7 7 2 2 3 3 7 7 3 3 8 8 8 8 3 3 4 4 8 8 4 4 9 9 9 9 4 4 0 0 9 9 0 0 5 5</p>
+				</triangles>
+			</mesh>
+		</geometry>
+	</library_geometries>
+	<library_geometries>
+		<geometry id="windowGeom">
+			<mesh>
+				<source id="windowGeom-positions">
+					<float_array id="windowGeom-positions-array" count="30" digits="2490374">-4.87293 -0.00499999 -2.5 4.8729 -0.00500002 -2.5 4.87293 0.00499999 -2.5 -4.8729 0.00500002 -2.5 -4.87293 -0.00499999 -2.5 -4.87293 -0.00499999 2.5 4.8729 -0.00500002 2.5 4.87293 0.00499999 2.5 -4.8729 0.00500002 2.5 -4.87293 -0.00499999 2.5</float_array>
+					<technique_common>
+						<accessor count="10" source="#windowGeom-positions-array" stride="3">
+							<param name="X" type="float"/>
+							<param name="Y" type="float"/>
+							<param name="Z" type="float"/>
+						</accessor>
+					</technique_common>
+				</source>
+				<source id="windowGeom-normals">
+					<float_array id="windowGeom-normals-array" count="30" digits="2490374">-3.39746e-06 -1 0 1 -3.41982e-06 0 3.39746e-06 1 0 -1 3.41982e-06 0 -3.39746e-06 -1 -0 -3.39746e-06 -1 0 1 -3.41982e-06 0 3.39746e-06 1 0 -1 3.41982e-06 0 -3.39746e-06 -1 0</float_array>
+					<technique_common>
+						<accessor count="10" source="#windowGeom-normals-array" stride="3">
+							<param name="X" type="float"/>
+							<param name="Y" type="float"/>
+							<param name="Z" type="float"/>
+						</accessor>
+					</technique_common>
+				</source>
+				<vertices id="windowGeom-vertices">
+					<input semantic="POSITION" source="#windowGeom-positions"/>
+				</vertices>
+				<triangles count="14" material="mtl">
+					<input offset="0" semantic="VERTEX" source="windowGeom-vertices" set="0"/>
+					<input offset="1" semantic="NORMAL" source="windowGeom-normals" set="0"/>
+					<p>2 0 1 0 0 0 3 0 2 0 0 0 5 5 6 5 7 5 5 5 7 5 8 5 5 5 0 0 1 1 5 5 1 1 6 6 6 6 1 1 2 2 6 6 2 2 7 7 7 7 2 2 3 3 7 7 3 3 8 8 8 8 3 3 4 4 8 8 4 4 9 9 9 9 4 4 0 0 9 9 0 0 5 5</p>
+				</triangles>
+			</mesh>
+		</geometry>
+	</library_geometries>
+	<library_geometries>
+		<geometry id="ObjectGeom">
+			<mesh>
+				<source id="ObjectGeom-positions">
+					<float_array id="ObjectGeom-positions-array" count="30" digits="2490374">-5.00002 -4.99999 -0.15 4.99999 -5.00002 -0.15 5.00002 4.99999 -0.15 -4.99999 5.00002 -0.15 -5.00002 -4.99999 -0.15 -5.00002 -4.99999 0.15 4.99999 -5.00002 0.15 5.00002 4.99999 0.15 -4.99999 5.00002 0.15 -5.00002 -4.99999 0.15</float_array>
+					<technique_common>
+						<accessor count="10" source="#ObjectGeom-positions-array" stride="3">
+							<param name="X" type="float"/>
+							<param name="Y" type="float"/>
+							<param name="Z" type="float"/>
+						</accessor>
+					</technique_common>
+				</source>
+				<source id="ObjectGeom-normals">
+					<float_array id="ObjectGeom-normals-array" count="30" digits="2490374">-3.39746e-06 -1 0 1 -3.41982e-06 0 3.39746e-06 1 0 -1 3.41982e-06 0 -3.39746e-06 -1 -0 -3.39746e-06 -1 0 1 -3.41982e-06 0 3.39746e-06 1 0 -1 3.41982e-06 0 -3.39746e-06 -1 0</float_array>
+					<technique_common>
+						<accessor count="10" source="#ObjectGeom-normals-array" stride="3">
+							<param name="X" type="float"/>
+							<param name="Y" type="float"/>
+							<param name="Z" type="float"/>
+						</accessor>
+					</technique_common>
+				</source>
+				<vertices id="ObjectGeom-vertices">
+					<input semantic="POSITION" source="#ObjectGeom-positions"/>
+				</vertices>
+				<triangles count="14" material="mtl">
+					<input offset="0" semantic="VERTEX" source="ObjectGeom-vertices" set="0"/>
+					<input offset="1" semantic="NORMAL" source="ObjectGeom-normals" set="0"/>
+					<p>2 0 1 0 0 0 3 0 2 0 0 0 5 5 6 5 7 5 5 5 7 5 8 5 5 5 0 0 1 1 5 5 1 1 6 6 6 6 1 1 2 2 6 6 2 2 7 7 7 7 2 2 3 3 7 7 3 3 8 8 8 8 3 3 4 4 8 8 4 4 9 9 9 9 4 4 0 0 9 9 0 0 5 5</p>
+				</triangles>
+			</mesh>
+		</geometry>
+	</library_geometries>
+	<library_geometries>
+		<geometry id="windowGeom">
+			<mesh>
+				<source id="windowGeom-positions">
+					<float_array id="windowGeom-positions-array" count="30" digits="2490374">-4.86269 -0.00499999 -2.5 4.86265 -0.00500002 -2.5 4.86269 0.00499999 -2.5 -4.86265 0.00500002 -2.5 -4.86269 -0.00499999 -2.5 -4.86269 -0.00499999 2.5 4.86265 -0.00500002 2.5 4.86269 0.00499999 2.5 -4.86265 0.00500002 2.5 -4.86269 -0.00499999 2.5</float_array>
+					<technique_common>
+						<accessor count="10" source="#windowGeom-positions-array" stride="3">
+							<param name="X" type="float"/>
+							<param name="Y" type="float"/>
+							<param name="Z" type="float"/>
+						</accessor>
+					</technique_common>
+				</source>
+				<source id="windowGeom-normals">
+					<float_array id="windowGeom-normals-array" count="30" digits="2490374">-3.39746e-06 -1 0 1 -3.41982e-06 0 3.39746e-06 1 0 -1 3.41982e-06 0 -3.39746e-06 -1 -0 -3.39746e-06 -1 0 1 -3.41982e-06 0 3.39746e-06 1 0 -1 3.41982e-06 0 -3.39746e-06 -1 0</float_array>
+					<technique_common>
+						<accessor count="10" source="#windowGeom-normals-array" stride="3">
+							<param name="X" type="float"/>
+							<param name="Y" type="float"/>
+							<param name="Z" type="float"/>
+						</accessor>
+					</technique_common>
+				</source>
+				<vertices id="windowGeom-vertices">
+					<input semantic="POSITION" source="#windowGeom-positions"/>
+				</vertices>
+				<triangles count="14" material="mtl">
+					<input offset="0" semantic="VERTEX" source="windowGeom-vertices" set="0"/>
+					<input offset="1" semantic="NORMAL" source="windowGeom-normals" set="0"/>
+					<p>2 0 1 0 0 0 3 0 2 0 0 0 5 5 6 5 7 5 5 5 7 5 8 5 5 5 0 0 1 1 5 5 1 1 6 6 6 6 1 1 2 2 6 6 2 2 7 7 7 7 2 2 3 3 7 7 3 3 8 8 8 8 3 3 4 4 8 8 4 4 9 9 9 9 4 4 0 0 9 9 0 0 5 5</p>
+				</triangles>
+			</mesh>
+		</geometry>
+	</library_geometries>
+	<library_geometries>
+		<geometry id="Federated">
+			<mesh>
+				<source id="Federated">
+					<float_array id="Federated-array" count="30" digits="2490374">-0.203737 -0.0999997 -0.187071 0.203735 -0.1 -0.187071 0.203737 0.0999997 -0.187071 -0.203735 0.1 -0.187071 -0.203737 -0.0999997 -0.187071 -0.203737 -0.0999997 0.187071 0.203735 -0.1 0.187071 0.203737 0.0999997 0.187071 -0.203735 0.1 0.187071 -0.203737 -0.0999997 0.187071</float_array>
+					<technique_common>
+						<accessor count="10" source="#Federated-array" stride="3">
+							<param name="X" type="float"/>
+							<param name="Y" type="float"/>
+							<param name="Z" type="float"/>
+						</accessor>
+					</technique_common>
+				</source>
+				<source id="Federated">
+					<float_array id="Federated-array" count="30" digits="2490374">-3.39746e-06 -1 0 1 -3.41982e-06 0 3.39746e-06 1 0 -1 3.41982e-06 0 -3.39746e-06 -1 -0 -3.39746e-06 -1 0 1 -3.41982e-06 0 3.39746e-06 1 0 -1 3.41982e-06 0 -3.39746e-06 -1 0</float_array>
+					<technique_common>
+						<accessor count="10" source="#Federated-array" stride="3">
+							<param name="X" type="float"/>
+							<param name="Y" type="float"/>
+							<param name="Z" type="float"/>
+						</accessor>
+					</technique_common>
+				</source>
+				<vertices id="Federated">
+					<input semantic="POSITION" source="#Federated%20window%20systemGeom-positions"/>
+				</vertices>
+				<triangles count="14" material="mtl">
+					<input offset="0" semantic="VERTEX" source="Federated%20window%20systemGeom-vertices" set="0"/>
+					<input offset="1" semantic="NORMAL" source="Federated%20window%20systemGeom-normals" set="0"/>
+					<p>2 0 1 0 0 0 3 0 2 0 0 0 5 5 6 5 7 5 5 5 7 5 8 5 5 5 0 0 1 1 5 5 1 1 6 6 6 6 1 1 2 2 6 6 2 2 7 7 7 7 2 2 3 3 7 7 3 3 8 8 8 8 3 3 4 4 8 8 4 4 9 9 9 9 4 4 0 0 9 9 0 0 5 5</p>
+				</triangles>
+			</mesh>
+		</geometry>
+	</library_geometries>
+	<library_geometries>
+		<geometry id="ObjectGeom">
+			<mesh>
+				<source id="ObjectGeom-positions">
+					<float_array id="ObjectGeom-positions-array" count="30" digits="2490374">-5.00002 -4.99999 -0.75 4.99999 -5.00002 -0.75 5.00002 4.99999 -0.75 -4.99999 5.00002 -0.75 -5.00002 -4.99999 -0.75 -5.00002 -4.99999 0.75 4.99999 -5.00002 0.75 5.00002 4.99999 0.75 -4.99999 5.00002 0.75 -5.00002 -4.99999 0.75</float_array>
+					<technique_common>
+						<accessor count="10" source="#ObjectGeom-positions-array" stride="3">
+							<param name="X" type="float"/>
+							<param name="Y" type="float"/>
+							<param name="Z" type="float"/>
+						</accessor>
+					</technique_common>
+				</source>
+				<source id="ObjectGeom-normals">
+					<float_array id="ObjectGeom-normals-array" count="30" digits="2490374">-3.39746e-06 -1 0 1 -3.41982e-06 0 3.39746e-06 1 0 -1 3.41982e-06 0 -3.39746e-06 -1 -0 -3.39746e-06 -1 0 1 -3.41982e-06 0 3.39746e-06 1 0 -1 3.41982e-06 0 -3.39746e-06 -1 0</float_array>
+					<technique_common>
+						<accessor count="10" source="#ObjectGeom-normals-array" stride="3">
+							<param name="X" type="float"/>
+							<param name="Y" type="float"/>
+							<param name="Z" type="float"/>
+						</accessor>
+					</technique_common>
+				</source>
+				<vertices id="ObjectGeom-vertices">
+					<input semantic="POSITION" source="#ObjectGeom-positions"/>
+				</vertices>
+				<triangles count="14" material="mtl">
+					<input offset="0" semantic="VERTEX" source="ObjectGeom-vertices" set="0"/>
+					<input offset="1" semantic="NORMAL" source="ObjectGeom-normals" set="0"/>
+					<p>2 0 1 0 0 0 3 0 2 0 0 0 5 5 6 5 7 5 5 5 7 5 8 5 5 5 0 0 1 1 5 5 1 1 6 6 6 6 1 1 2 2 6 6 2 2 7 7 7 7 2 2 3 3 7 7 3 3 8 8 8 8 3 3 4 4 8 8 4 4 9 9 9 9 4 4 0 0 9 9 0 0 5 5</p>
+				</triangles>
+			</mesh>
+		</geometry>
+	</library_geometries>
+	<library_geometries>
+		<geometry id="windowGeom">
+			<mesh>
+				<source id="windowGeom-positions">
+					<float_array id="windowGeom-positions-array" count="30" digits="2490374">-4.75002 -0.00499999 -2.5 4.74999 -0.00500002 -2.5 4.75002 0.00499999 -2.5 -4.74999 0.00500002 -2.5 -4.75002 -0.00499999 -2.5 -4.75002 -0.00499999 2.5 4.74999 -0.00500002 2.5 4.75002 0.00499999 2.5 -4.74999 0.00500002 2.5 -4.75002 -0.00499999 2.5</float_array>
+					<technique_common>
+						<accessor count="10" source="#windowGeom-positions-array" stride="3">
+							<param name="X" type="float"/>
+							<param name="Y" type="float"/>
+							<param name="Z" type="float"/>
+						</accessor>
+					</technique_common>
+				</source>
+				<source id="windowGeom-normals">
+					<float_array id="windowGeom-normals-array" count="30" digits="2490374">-3.39746e-06 -1 0 1 -3.41982e-06 0 3.39746e-06 1 0 -1 3.41982e-06 0 -3.39746e-06 -1 -0 -3.39746e-06 -1 0 1 -3.41982e-06 0 3.39746e-06 1 0 -1 3.41982e-06 0 -3.39746e-06 -1 0</float_array>
+					<technique_common>
+						<accessor count="10" source="#windowGeom-normals-array" stride="3">
+							<param name="X" type="float"/>
+							<param name="Y" type="float"/>
+							<param name="Z" type="float"/>
+						</accessor>
+					</technique_common>
+				</source>
+				<vertices id="windowGeom-vertices">
+					<input semantic="POSITION" source="#windowGeom-positions"/>
+				</vertices>
+				<triangles count="14" material="mtl">
+					<input offset="0" semantic="VERTEX" source="windowGeom-vertices" set="0"/>
+					<input offset="1" semantic="NORMAL" source="windowGeom-normals" set="0"/>
+					<p>2 0 1 0 0 0 3 0 2 0 0 0 5 5 6 5 7 5 5 5 7 5 8 5 5 5 0 0 1 1 5 5 1 1 6 6 6 6 1 1 2 2 6 6 2 2 7 7 7 7 2 2 3 3 7 7 3 3 8 8 8 8 3 3 4 4 8 8 4 4 9 9 9 9 4 4 0 0 9 9 0 0 5 5</p>
+				</triangles>
+			</mesh>
+		</geometry>
+	</library_geometries>
+	<library_geometries>
+		<geometry id="Concrete">
+			<mesh>
+				<source id="Concrete">
+					<float_array id="Concrete-array" count="30" digits="2490374">-0.242295 -4.99999 -1.64901 0.242294 -5.00002 -1.64901 0.242295 4.99999 -1.64901 -0.242294 5.00002 -1.64901 -0.242295 -4.99999 -1.64901 -0.242295 -4.99999 1.64901 0.242294 -5.00002 1.64901 0.242295 4.99999 1.64901 -0.242294 5.00002 1.64901 -0.242295 -4.99999 1.64901</float_array>
+					<technique_common>
+						<accessor count="10" source="#Concrete-array" stride="3">
+							<param name="X" type="float"/>
+							<param name="Y" type="float"/>
+							<param name="Z" type="float"/>
+						</accessor>
+					</technique_common>
+				</source>
+				<source id="Concrete">
+					<float_array id="Concrete-array" count="30" digits="2490374">-3.39746e-06 -1 0 1 -3.41982e-06 0 3.39746e-06 1 0 -1 3.41982e-06 0 -3.39746e-06 -1 -0 -3.39746e-06 -1 0 1 -3.41982e-06 0 3.39746e-06 1 0 -1 3.41982e-06 0 -3.39746e-06 -1 0</float_array>
+					<technique_common>
+						<accessor count="10" source="#Concrete-array" stride="3">
+							<param name="X" type="float"/>
+							<param name="Y" type="float"/>
+							<param name="Z" type="float"/>
+						</accessor>
+					</technique_common>
+				</source>
+				<vertices id="Concrete">
+					<input semantic="POSITION" source="#Concrete%20Footer%20-%20LightGeom-positions"/>
+				</vertices>
+				<triangles count="14" material="mtl">
+					<input offset="0" semantic="VERTEX" source="Concrete%20Footer%20-%20LightGeom-vertices" set="0"/>
+					<input offset="1" semantic="NORMAL" source="Concrete%20Footer%20-%20LightGeom-normals" set="0"/>
+					<p>2 0 1 0 0 0 3 0 2 0 0 0 5 5 6 5 7 5 5 5 7 5 8 5 5 5 0 0 1 1 5 5 1 1 6 6 6 6 1 1 2 2 6 6 2 2 7 7 7 7 2 2 3 3 7 7 3 3 8 8 8 8 3 3 4 4 8 8 4 4 9 9 9 9 4 4 0 0 9 9 0 0 5 5</p>
+				</triangles>
+			</mesh>
+		</geometry>
+	</library_geometries>
+	<library_geometries>
+		<geometry id="ObjectGeom">
+			<mesh>
+				<source id="ObjectGeom-positions">
+					<float_array id="ObjectGeom-positions-array" count="30" digits="2490374">-5.00002 -4.99999 -0.15 4.99999 -5.00002 -0.15 5.00002 4.99999 -0.15 -4.99999 5.00002 -0.15 -5.00002 -4.99999 -0.15 -5.00002 -4.99999 0.15 4.99999 -5.00002 0.15 5.00002 4.99999 0.15 -4.99999 5.00002 0.15 -5.00002 -4.99999 0.15</float_array>
+					<technique_common>
+						<accessor count="10" source="#ObjectGeom-positions-array" stride="3">
+							<param name="X" type="float"/>
+							<param name="Y" type="float"/>
+							<param name="Z" type="float"/>
+						</accessor>
+					</technique_common>
+				</source>
+				<source id="ObjectGeom-normals">
+					<float_array id="ObjectGeom-normals-array" count="30" digits="2490374">-3.39746e-06 -1 0 1 -3.41982e-06 0 3.39746e-06 1 0 -1 3.41982e-06 0 -3.39746e-06 -1 -0 -3.39746e-06 -1 0 1 -3.41982e-06 0 3.39746e-06 1 0 -1 3.41982e-06 0 -3.39746e-06 -1 0</float_array>
+					<technique_common>
+						<accessor count="10" source="#ObjectGeom-normals-array" stride="3">
+							<param name="X" type="float"/>
+							<param name="Y" type="float"/>
+							<param name="Z" type="float"/>
+						</accessor>
+					</technique_common>
+				</source>
+				<vertices id="ObjectGeom-vertices">
+					<input semantic="POSITION" source="#ObjectGeom-positions"/>
+				</vertices>
+				<triangles count="14" material="mtl">
+					<input offset="0" semantic="VERTEX" source="ObjectGeom-vertices" set="0"/>
+					<input offset="1" semantic="NORMAL" source="ObjectGeom-normals" set="0"/>
+					<p>2 0 1 0 0 0 3 0 2 0 0 0 5 5 6 5 7 5 5 5 7 5 8 5 5 5 0 0 1 1 5 5 1 1 6 6 6 6 1 1 2 2 6 6 2 2 7 7 7 7 2 2 3 3 7 7 3 3 8 8 8 8 3 3 4 4 8 8 4 4 9 9 9 9 4 4 0 0 9 9 0 0 5 5</p>
+				</triangles>
+			</mesh>
+		</geometry>
+	</library_geometries>
+	<library_geometries>
+		<geometry id="ObjectGeom">
+			<mesh>
+				<source id="ObjectGeom-positions">
+					<float_array id="ObjectGeom-positions-array" count="30" digits="2490374">-0.250001 -2.74999 -3.75 0.249999 -2.75001 -3.75 0.250001 2.74999 -3.75 -0.249999 2.75001 -3.75 -0.250001 -2.74999 -3.75 -0.250001 -2.74999 3.75 0.249999 -2.75001 3.75 0.250001 2.74999 3.75 -0.249999 2.75001 3.75 -0.250001 -2.74999 3.75</float_array>
+					<technique_common>
+						<accessor count="10" source="#ObjectGeom-positions-array" stride="3">
+							<param name="X" type="float"/>
+							<param name="Y" type="float"/>
+							<param name="Z" type="float"/>
+						</accessor>
+					</technique_common>
+				</source>
+				<source id="ObjectGeom-normals">
+					<float_array id="ObjectGeom-normals-array" count="30" digits="2490374">-3.39746e-06 -1 0 1 -3.41982e-06 0 3.39746e-06 1 0 -1 3.41982e-06 0 -3.39746e-06 -1 -0 -3.39746e-06 -1 0 1 -3.41982e-06 0 3.39746e-06 1 0 -1 3.41982e-06 0 -3.39746e-06 -1 0</float_array>
+					<technique_common>
+						<accessor count="10" source="#ObjectGeom-normals-array" stride="3">
+							<param name="X" type="float"/>
+							<param name="Y" type="float"/>
+							<param name="Z" type="float"/>
+						</accessor>
+					</technique_common>
+				</source>
+				<vertices id="ObjectGeom-vertices">
+					<input semantic="POSITION" source="#ObjectGeom-positions"/>
+				</vertices>
+				<triangles count="14" material="mtl">
+					<input offset="0" semantic="VERTEX" source="ObjectGeom-vertices" set="0"/>
+					<input offset="1" semantic="NORMAL" source="ObjectGeom-normals" set="0"/>
+					<p>2 0 1 0 0 0 3 0 2 0 0 0 5 5 6 5 7 5 5 5 7 5 8 5 5 5 0 0 1 1 5 5 1 1 6 6 6 6 1 1 2 2 6 6 2 2 7 7 7 7 2 2 3 3 7 7 3 3 8 8 8 8 3 3 4 4 8 8 4 4 9 9 9 9 4 4 0 0 9 9 0 0 5 5</p>
+				</triangles>
+			</mesh>
+		</geometry>
+	</library_geometries>
+	<library_geometries>
+		<geometry id="ObjectGeom">
+			<mesh>
+				<source id="ObjectGeom-positions">
+					<float_array id="ObjectGeom-positions-array" count="30" digits="2490374">-0.250001 -2.74999 -3.75 0.249999 -2.75001 -3.75 0.250001 2.74999 -3.75 -0.249999 2.75001 -3.75 -0.250001 -2.74999 -3.75 -0.250001 -2.74999 3.75 0.249999 -2.75001 3.75 0.250001 2.74999 3.75 -0.249999 2.75001 3.75 -0.250001 -2.74999 3.75</float_array>
+					<technique_common>
+						<accessor count="10" source="#ObjectGeom-positions-array" stride="3">
+							<param name="X" type="float"/>
+							<param name="Y" type="float"/>
+							<param name="Z" type="float"/>
+						</accessor>
+					</technique_common>
+				</source>
+				<source id="ObjectGeom-normals">
+					<float_array id="ObjectGeom-normals-array" count="30" digits="2490374">-3.39746e-06 -1 0 1 -3.41982e-06 0 3.39746e-06 1 0 -1 3.41982e-06 0 -3.39746e-06 -1 -0 -3.39746e-06 -1 0 1 -3.41982e-06 0 3.39746e-06 1 0 -1 3.41982e-06 0 -3.39746e-06 -1 0</float_array>
+					<technique_common>
+						<accessor count="10" source="#ObjectGeom-normals-array" stride="3">
+							<param name="X" type="float"/>
+							<param name="Y" type="float"/>
+							<param name="Z" type="float"/>
+						</accessor>
+					</technique_common>
+				</source>
+				<vertices id="ObjectGeom-vertices">
+					<input semantic="POSITION" source="#ObjectGeom-positions"/>
+				</vertices>
+				<triangles count="14" material="mtl">
+					<input offset="0" semantic="VERTEX" source="ObjectGeom-vertices" set="0"/>
+					<input offset="1" semantic="NORMAL" source="ObjectGeom-normals" set="0"/>
+					<p>2 0 1 0 0 0 3 0 2 0 0 0 5 5 6 5 7 5 5 5 7 5 8 5 5 5 0 0 1 1 5 5 1 1 6 6 6 6 1 1 2 2 6 6 2 2 7 7 7 7 2 2 3 3 7 7 3 3 8 8 8 8 3 3 4 4 8 8 4 4 9 9 9 9 4 4 0 0 9 9 0 0 5 5</p>
+				</triangles>
+			</mesh>
+		</geometry>
+	</library_geometries>
+	<library_geometries>
+		<geometry id="ObjectGeom">
+			<mesh>
+				<source id="ObjectGeom-positions">
+					<float_array id="ObjectGeom-positions-array" count="30" digits="2490374">-0.150001 -0.15 -3.68864 0.15 -0.150001 -3.68864 0.150001 0.15 -3.68864 -0.15 0.150001 -3.68864 -0.150001 -0.15 -3.68864 -0.150001 -0.15 3.68864 0.15 -0.150001 3.68864 0.150001 0.15 3.68864 -0.15 0.150001 3.68864 -0.150001 -0.15 3.68864</float_array>
+					<technique_common>
+						<accessor count="10" source="#ObjectGeom-positions-array" stride="3">
+							<param name="X" type="float"/>
+							<param name="Y" type="float"/>
+							<param name="Z" type="float"/>
+						</accessor>
+					</technique_common>
+				</source>
+				<source id="ObjectGeom-normals">
+					<float_array id="ObjectGeom-normals-array" count="30" digits="2490374">-3.39746e-06 -1 0 1 -3.41982e-06 0 3.39746e-06 1 0 -1 3.41982e-06 0 -3.39746e-06 -1 -0 -3.39746e-06 -1 0 1 -3.41982e-06 0 3.39746e-06 1 0 -1 3.41982e-06 0 -3.39746e-06 -1 0</float_array>
+					<technique_common>
+						<accessor count="10" source="#ObjectGeom-normals-array" stride="3">
+							<param name="X" type="float"/>
+							<param name="Y" type="float"/>
+							<param name="Z" type="float"/>
+						</accessor>
+					</technique_common>
+				</source>
+				<vertices id="ObjectGeom-vertices">
+					<input semantic="POSITION" source="#ObjectGeom-positions"/>
+				</vertices>
+				<triangles count="14" material="mtl">
+					<input offset="0" semantic="VERTEX" source="ObjectGeom-vertices" set="0"/>
+					<input offset="1" semantic="NORMAL" source="ObjectGeom-normals" set="0"/>
+					<p>2 0 1 0 0 0 3 0 2 0 0 0 5 5 6 5 7 5 5 5 7 5 8 5 5 5 0 0 1 1 5 5 1 1 6 6 6 6 1 1 2 2 6 6 2 2 7 7 7 7 2 2 3 3 7 7 3 3 8 8 8 8 3 3 4 4 8 8 4 4 9 9 9 9 4 4 0 0 9 9 0 0 5 5</p>
+				</triangles>
+			</mesh>
+		</geometry>
+	</library_geometries>
+	<library_geometries>
+		<geometry id="windowGeom">
+			<mesh>
+				<source id="windowGeom-positions">
+					<float_array id="windowGeom-positions-array" count="30" digits="2490374">-3.55882 -0.00499999 -2.52555 3.5588 -0.00500002 -2.52555 3.55882 0.00499999 -2.52555 -3.5588 0.00500002 -2.52555 -3.55882 -0.00499999 -2.52555 -3.55882 -0.00499999 2.52555 3.5588 -0.00500002 2.52555 3.55882 0.00499999 2.52555 -3.5588 0.00500002 2.52555 -3.55882 -0.00499999 2.52555</float_array>
+					<technique_common>
+						<accessor count="10" source="#windowGeom-positions-array" stride="3">
+							<param name="X" type="float"/>
+							<param name="Y" type="float"/>
+							<param name="Z" type="float"/>
+						</accessor>
+					</technique_common>
+				</source>
+				<source id="windowGeom-normals">
+					<float_array id="windowGeom-normals-array" count="30" digits="2490374">-3.39746e-06 -1 0 1 -3.41982e-06 0 3.39746e-06 1 0 -1 3.41982e-06 0 -3.39746e-06 -1 -0 -3.39746e-06 -1 0 1 -3.41982e-06 0 3.39746e-06 1 0 -1 3.41982e-06 0 -3.39746e-06 -1 0</float_array>
+					<technique_common>
+						<accessor count="10" source="#windowGeom-normals-array" stride="3">
+							<param name="X" type="float"/>
+							<param name="Y" type="float"/>
+							<param name="Z" type="float"/>
+						</accessor>
+					</technique_common>
+				</source>
+				<vertices id="windowGeom-vertices">
+					<input semantic="POSITION" source="#windowGeom-positions"/>
+				</vertices>
+				<triangles count="14" material="mtl">
+					<input offset="0" semantic="VERTEX" source="windowGeom-vertices" set="0"/>
+					<input offset="1" semantic="NORMAL" source="windowGeom-normals" set="0"/>
+					<p>2 0 1 0 0 0 3 0 2 0 0 0 5 5 6 5 7 5 5 5 7 5 8 5 5 5 0 0 1 1 5 5 1 1 6 6 6 6 1 1 2 2 6 6 2 2 7 7 7 7 2 2 3 3 7 7 3 3 8 8 8 8 3 3 4 4 8 8 4 4 9 9 9 9 4 4 0 0 9 9 0 0 5 5</p>
+				</triangles>
+			</mesh>
+		</geometry>
+	</library_geometries>
+	<library_geometries>
+		<geometry id="ObjectGeom">
+			<mesh>
+				<source id="ObjectGeom-positions">
+					<float_array id="ObjectGeom-positions-array" count="60" digits="2490374">-5.00002 -4.99999 -0.15 4.99999 -5.00002 -0.15 5.00002 4.99999 -0.15 -4.99999 5.00002 -0.15 -5.00002 -4.99999 -0.15 -3.49501 -3.49499 -0.15 -3.49499 3.49501 -0.15 3.49501 3.49499 -0.15 3.49499 -3.49501 -0.15 -3.49501 -3.49499 -0.15 -5.00002 -4.99999 0.15 4.99999 -5.00002 0.15 5.00002 4.99999 0.15 -4.99999 5.00002 0.15 -5.00002 -4.99999 0.15 -3.49501 -3.49499 0.15 -3.49499 3.49501 0.15 3.49501 3.49499 0.15 3.49499 -3.49501 0.15 -3.49501 -3.49499 0.15</float_array>
+					<technique_common>
+						<accessor count="20" source="#ObjectGeom-positions-array" stride="3">
+							<param name="X" type="float"/>
+							<param name="Y" type="float"/>
+							<param name="Z" type="float"/>
+						</accessor>
+					</technique_common>
+				</source>
+				<source id="ObjectGeom-normals">
+					<float_array id="ObjectGeom-normals-array" count="60" digits="2490374">-3.39746e-06 -1 0 1 -3.41982e-06 0 3.39746e-06 1 0 -1 3.41982e-06 0 -3.39746e-06 -1 0 3.39746e-06 1 0 1 -3.41982e-06 0 -3.39746e-06 -1 0 -1 3.41982e-06 0 3.39746e-06 1 -0 -3.39746e-06 -1 0 1 -3.41982e-06 0 3.39746e-06 1 0 -1 3.41982e-06 0 -3.39746e-06 -1 0 3.39746e-06 1 0 1 -3.41982e-06 0 -3.39746e-06 -1 0 -1 3.41982e-06 0 3.39746e-06 1 0</float_array>
+					<technique_common>
+						<accessor count="20" source="#ObjectGeom-normals-array" stride="3">
+							<param name="X" type="float"/>
+							<param name="Y" type="float"/>
+							<param name="Z" type="float"/>
+						</accessor>
+					</technique_common>
+				</source>
+				<vertices id="ObjectGeom-vertices">
+					<input semantic="POSITION" source="#ObjectGeom-positions"/>
+				</vertices>
+				<triangles count="36" material="mtl">
+					<input offset="0" semantic="VERTEX" source="ObjectGeom-vertices" set="0"/>
+					<input offset="1" semantic="NORMAL" source="ObjectGeom-normals" set="0"/>
+					<p>9 0 1 0 0 0 9 0 8 0 1 0 8 0 2 0 1 0 8 0 7 0 2 0 7 0 3 0 2 0 7 0 6 0 3 0 6 0 4 0 3 0 6 0 5 0 4 0 10 10 11 10 19 10 11 10 18 10 19 10 11 10 12 10 18 10 12 10 17 10 18 10 12 10 13 10 17 10 13 10 16 10 17 10 13 10 14 10 16 10 14 10 15 10 16 10 10 10 0 0 1 1 10 10 1 1 11 11 11 11 1 1 2 2 11 11 2 2 12 12 12 12 2 2 3 3 12 12 3 3 13 13 13 13 3 3 4 4 13 13 4 4 14 14 14 14 4 4 5 5 14 14 5 5 15 15 15 15 5 5 6 6 15 15 6 6 16 16 16 16 6 6 7 7 16 16 7 7 17 17 17 17 7 7 8 8 17 17 8 8 18 18 18 18 8 8 9 9 18 18 9 9 19 19 19 19 9 9 0 0 19 19 0 0 10 10</p>
+				</triangles>
+			</mesh>
+		</geometry>
+	</library_geometries>
+	<library_geometries>
+		<geometry id="ObjectGeom">
+			<mesh>
+				<source id="ObjectGeom-positions">
+					<float_array id="ObjectGeom-positions-array" count="30" digits="2490374">-5.00002 -4.99999 -0.75 4.99999 -5.00002 -0.75 5.00002 4.99999 -0.75 -4.99999 5.00002 -0.75 -5.00002 -4.99999 -0.75 -5.00002 -4.99999 0.75 4.99999 -5.00002 0.75 5.00002 4.99999 0.75 -4.99999 5.00002 0.75 -5.00002 -4.99999 0.75</float_array>
+					<technique_common>
+						<accessor count="10" source="#ObjectGeom-positions-array" stride="3">
+							<param name="X" type="float"/>
+							<param name="Y" type="float"/>
+							<param name="Z" type="float"/>
+						</accessor>
+					</technique_common>
+				</source>
+				<source id="ObjectGeom-normals">
+					<float_array id="ObjectGeom-normals-array" count="30" digits="2490374">-3.39746e-06 -1 0 1 -3.41982e-06 0 3.39746e-06 1 0 -1 3.41982e-06 0 -3.39746e-06 -1 -0 -3.39746e-06 -1 0 1 -3.41982e-06 0 3.39746e-06 1 0 -1 3.41982e-06 0 -3.39746e-06 -1 0</float_array>
+					<technique_common>
+						<accessor count="10" source="#ObjectGeom-normals-array" stride="3">
+							<param name="X" type="float"/>
+							<param name="Y" type="float"/>
+							<param name="Z" type="float"/>
+						</accessor>
+					</technique_common>
+				</source>
+				<vertices id="ObjectGeom-vertices">
+					<input semantic="POSITION" source="#ObjectGeom-positions"/>
+				</vertices>
+				<triangles count="14" material="mtl">
+					<input offset="0" semantic="VERTEX" source="ObjectGeom-vertices" set="0"/>
+					<input offset="1" semantic="NORMAL" source="ObjectGeom-normals" set="0"/>
+					<p>2 0 1 0 0 0 3 0 2 0 0 0 5 5 6 5 7 5 5 5 7 5 8 5 5 5 0 0 1 1 5 5 1 1 6 6 6 6 1 1 2 2 6 6 2 2 7 7 7 7 2 2 3 3 7 7 3 3 8 8 8 8 3 3 4 4 8 8 4 4 9 9 9 9 4 4 0 0 9 9 0 0 5 5</p>
+				</triangles>
+			</mesh>
+		</geometry>
+	</library_geometries>
+	<library_geometries>
+		<geometry id="windowGeom">
+			<mesh>
+				<source id="windowGeom-positions">
+					<float_array id="windowGeom-positions-array" count="30" digits="2490374">-3.00001 -0.00499999 -3 2.99999 -0.00500002 -3 3.00001 0.00499999 -3 -2.99999 0.00500002 -3 -3.00001 -0.00499999 -3 -3.00001 -0.00499999 3 2.99999 -0.00500002 3 3.00001 0.00499999 3 -2.99999 0.00500002 3 -3.00001 -0.00499999 3</float_array>
+					<technique_common>
+						<accessor count="10" source="#windowGeom-positions-array" stride="3">
+							<param name="X" type="float"/>
+							<param name="Y" type="float"/>
+							<param name="Z" type="float"/>
+						</accessor>
+					</technique_common>
+				</source>
+				<source id="windowGeom-normals">
+					<float_array id="windowGeom-normals-array" count="30" digits="2490374">-3.39746e-06 -1 0 1 -3.41982e-06 0 3.39746e-06 1 0 -1 3.41982e-06 0 -3.39746e-06 -1 -0 -3.39746e-06 -1 0 1 -3.41982e-06 0 3.39746e-06 1 0 -1 3.41982e-06 0 -3.39746e-06 -1 0</float_array>
+					<technique_common>
+						<accessor count="10" source="#windowGeom-normals-array" stride="3">
+							<param name="X" type="float"/>
+							<param name="Y" type="float"/>
+							<param name="Z" type="float"/>
+						</accessor>
+					</technique_common>
+				</source>
+				<vertices id="windowGeom-vertices">
+					<input semantic="POSITION" source="#windowGeom-positions"/>
+				</vertices>
+				<triangles count="14" material="mtl">
+					<input offset="0" semantic="VERTEX" source="windowGeom-vertices" set="0"/>
+					<input offset="1" semantic="NORMAL" source="windowGeom-normals" set="0"/>
+					<p>2 0 1 0 0 0 3 0 2 0 0 0 5 5 6 5 7 5 5 5 7 5 8 5 5 5 0 0 1 1 5 5 1 1 6 6 6 6 1 1 2 2 6 6 2 2 7 7 7 7 2 2 3 3 7 7 3 3 8 8 8 8 3 3 4 4 8 8 4 4 9 9 9 9 4 4 0 0 9 9 0 0 5 5</p>
+				</triangles>
+			</mesh>
+		</geometry>
+	</library_geometries>
+	<library_geometries>
+		<geometry id="ObjectGeom">
+			<mesh>
+				<source id="ObjectGeom-positions">
+					<float_array id="ObjectGeom-positions-array" count="30" digits="2490374">-5.00002 -4.99999 -0.15 4.99999 -5.00002 -0.15 5.00002 4.99999 -0.15 -4.99999 5.00002 -0.15 -5.00002 -4.99999 -0.15 -5.00002 -4.99999 0.15 4.99999 -5.00002 0.15 5.00002 4.99999 0.15 -4.99999 5.00002 0.15 -5.00002 -4.99999 0.15</float_array>
+					<technique_common>
+						<accessor count="10" source="#ObjectGeom-positions-array" stride="3">
+							<param name="X" type="float"/>
+							<param name="Y" type="float"/>
+							<param name="Z" type="float"/>
+						</accessor>
+					</technique_common>
+				</source>
+				<source id="ObjectGeom-normals">
+					<float_array id="ObjectGeom-normals-array" count="30" digits="2490374">-3.39746e-06 -1 0 1 -3.41982e-06 0 3.39746e-06 1 0 -1 3.41982e-06 0 -3.39746e-06 -1 -0 -3.39746e-06 -1 0 1 -3.41982e-06 0 3.39746e-06 1 0 -1 3.41982e-06 0 -3.39746e-06 -1 0</float_array>
+					<technique_common>
+						<accessor count="10" source="#ObjectGeom-normals-array" stride="3">
+							<param name="X" type="float"/>
+							<param name="Y" type="float"/>
+							<param name="Z" type="float"/>
+						</accessor>
+					</technique_common>
+				</source>
+				<vertices id="ObjectGeom-vertices">
+					<input semantic="POSITION" source="#ObjectGeom-positions"/>
+				</vertices>
+				<triangles count="14" material="mtl">
+					<input offset="0" semantic="VERTEX" source="ObjectGeom-vertices" set="0"/>
+					<input offset="1" semantic="NORMAL" source="ObjectGeom-normals" set="0"/>
+					<p>2 0 1 0 0 0 3 0 2 0 0 0 5 5 6 5 7 5 5 5 7 5 8 5 5 5 0 0 1 1 5 5 1 1 6 6 6 6 1 1 2 2 6 6 2 2 7 7 7 7 2 2 3 3 7 7 3 3 8 8 8 8 3 3 4 4 8 8 4 4 9 9 9 9 4 4 0 0 9 9 0 0 5 5</p>
+				</triangles>
+			</mesh>
+		</geometry>
+	</library_geometries>
+	<library_geometries>
+		<geometry id="windowGeom">
+			<mesh>
+				<source id="windowGeom-positions">
+					<float_array id="windowGeom-positions-array" count="30" digits="2490374">-4.75002 -0.00499999 -0.504364 4.74999 -0.00500002 -0.504364 4.75002 0.00499999 -0.504364 -4.74999 0.00500002 -0.504364 -4.75002 -0.00499999 -0.504364 -4.75002 -0.00499999 0.504364 4.74999 -0.00500002 0.504364 4.75002 0.00499999 0.504364 -4.74999 0.00500002 0.504364 -4.75002 -0.00499999 0.504364</float_array>
+					<technique_common>
+						<accessor count="10" source="#windowGeom-positions-array" stride="3">
+							<param name="X" type="float"/>
+							<param name="Y" type="float"/>
+							<param name="Z" type="float"/>
+						</accessor>
+					</technique_common>
+				</source>
+				<source id="windowGeom-normals">
+					<float_array id="windowGeom-normals-array" count="30" digits="2490374">-3.39746e-06 -1 0 1 -3.41982e-06 0 3.39746e-06 1 0 -1 3.41982e-06 0 -3.39746e-06 -1 -0 -3.39746e-06 -1 0 1 -3.41982e-06 0 3.39746e-06 1 0 -1 3.41982e-06 0 -3.39746e-06 -1 0</float_array>
+					<technique_common>
+						<accessor count="10" source="#windowGeom-normals-array" stride="3">
+							<param name="X" type="float"/>
+							<param name="Y" type="float"/>
+							<param name="Z" type="float"/>
+						</accessor>
+					</technique_common>
+				</source>
+				<vertices id="windowGeom-vertices">
+					<input semantic="POSITION" source="#windowGeom-positions"/>
+				</vertices>
+				<triangles count="14" material="mtl">
+					<input offset="0" semantic="VERTEX" source="windowGeom-vertices" set="0"/>
+					<input offset="1" semantic="NORMAL" source="windowGeom-normals" set="0"/>
+					<p>2 0 1 0 0 0 3 0 2 0 0 0 5 5 6 5 7 5 5 5 7 5 8 5 5 5 0 0 1 1 5 5 1 1 6 6 6 6 1 1 2 2 6 6 2 2 7 7 7 7 2 2 3 3 7 7 3 3 8 8 8 8 3 3 4 4 8 8 4 4 9 9 9 9 4 4 0 0 9 9 0 0 5 5</p>
+				</triangles>
+			</mesh>
+		</geometry>
+	</library_geometries>
+	<library_geometries>
+		<geometry id="ObjectGeom">
+			<mesh>
+				<source id="ObjectGeom-positions">
+					<float_array id="ObjectGeom-positions-array" count="30" digits="2490374">-0.376144 -4.99999 -0.5 0.376142 -5.00002 -0.5 0.376144 4.99999 -0.5 -0.376142 5.00002 -0.5 -0.376144 -4.99999 -0.5 -0.376144 -4.99999 0.5 0.376142 -5.00002 0.5 0.376144 4.99999 0.5 -0.376142 5.00002 0.5 -0.376144 -4.99999 0.5</float_array>
+					<technique_common>
+						<accessor count="10" source="#ObjectGeom-positions-array" stride="3">
+							<param name="X" type="float"/>
+							<param name="Y" type="float"/>
+							<param name="Z" type="float"/>
+						</accessor>
+					</technique_common>
+				</source>
+				<source id="ObjectGeom-normals">
+					<float_array id="ObjectGeom-normals-array" count="30" digits="2490374">-3.39746e-06 -1 0 1 -3.41982e-06 0 3.39746e-06 1 0 -1 3.41982e-06 0 -3.39746e-06 -1 -0 -3.39746e-06 -1 0 1 -3.41982e-06 0 3.39746e-06 1 0 -1 3.41982e-06 0 -3.39746e-06 -1 0</float_array>
+					<technique_common>
+						<accessor count="10" source="#ObjectGeom-normals-array" stride="3">
+							<param name="X" type="float"/>
+							<param name="Y" type="float"/>
+							<param name="Z" type="float"/>
+						</accessor>
+					</technique_common>
+				</source>
+				<vertices id="ObjectGeom-vertices">
+					<input semantic="POSITION" source="#ObjectGeom-positions"/>
+				</vertices>
+				<triangles count="14" material="mtl">
+					<input offset="0" semantic="VERTEX" source="ObjectGeom-vertices" set="0"/>
+					<input offset="1" semantic="NORMAL" source="ObjectGeom-normals" set="0"/>
+					<p>2 0 1 0 0 0 3 0 2 0 0 0 5 5 6 5 7 5 5 5 7 5 8 5 5 5 0 0 1 1 5 5 1 1 6 6 6 6 1 1 2 2 6 6 2 2 7 7 7 7 2 2 3 3 7 7 3 3 8 8 8 8 3 3 4 4 8 8 4 4 9 9 9 9 4 4 0 0 9 9 0 0 5 5</p>
+				</triangles>
+			</mesh>
+		</geometry>
+	</library_geometries>
+	<library_geometries>
+		<geometry id="ObjectGeom">
+			<mesh>
+				<source id="ObjectGeom-positions">
+					<float_array id="ObjectGeom-positions-array" count="30" digits="2490374">-0.250001 -0.249999 -3.5 0.249999 -0.250001 -3.5 0.250001 0.249999 -3.5 -0.249999 0.250001 -3.5 -0.250001 -0.249999 -3.5 -0.250001 -0.249999 3.5 0.249999 -0.250001 3.5 0.250001 0.249999 3.5 -0.249999 0.250001 3.5 -0.250001 -0.249999 3.5</float_array>
+					<technique_common>
+						<accessor count="10" source="#ObjectGeom-positions-array" stride="3">
+							<param name="X" type="float"/>
+							<param name="Y" type="float"/>
+							<param name="Z" type="float"/>
+						</accessor>
+					</technique_common>
+				</source>
+				<source id="ObjectGeom-normals">
+					<float_array id="ObjectGeom-normals-array" count="30" digits="2490374">-3.39746e-06 -1 0 1 -3.41982e-06 0 3.39746e-06 1 0 -1 3.41982e-06 0 -3.39746e-06 -1 -0 -3.39746e-06 -1 0 1 -3.41982e-06 0 3.39746e-06 1 0 -1 3.41982e-06 0 -3.39746e-06 -1 0</float_array>
+					<technique_common>
+						<accessor count="10" source="#ObjectGeom-normals-array" stride="3">
+							<param name="X" type="float"/>
+							<param name="Y" type="float"/>
+							<param name="Z" type="float"/>
+						</accessor>
+					</technique_common>
+				</source>
+				<vertices id="ObjectGeom-vertices">
+					<input semantic="POSITION" source="#ObjectGeom-positions"/>
+				</vertices>
+				<triangles count="14" material="mtl">
+					<input offset="0" semantic="VERTEX" source="ObjectGeom-vertices" set="0"/>
+					<input offset="1" semantic="NORMAL" source="ObjectGeom-normals" set="0"/>
+					<p>2 0 1 0 0 0 3 0 2 0 0 0 5 5 6 5 7 5 5 5 7 5 8 5 5 5 0 0 1 1 5 5 1 1 6 6 6 6 1 1 2 2 6 6 2 2 7 7 7 7 2 2 3 3 7 7 3 3 8 8 8 8 3 3 4 4 8 8 4 4 9 9 9 9 4 4 0 0 9 9 0 0 5 5</p>
+				</triangles>
+			</mesh>
+		</geometry>
+	</library_geometries>
+	<library_geometries>
+		<geometry id="ObjectGeom">
+			<mesh>
+				<source id="ObjectGeom-positions">
+					<float_array id="ObjectGeom-positions-array" count="30" digits="2490374">-0.250001 -0.249999 -3.5 0.249999 -0.250001 -3.5 0.250001 0.249999 -3.5 -0.249999 0.250001 -3.5 -0.250001 -0.249999 -3.5 -0.250001 -0.249999 3.5 0.249999 -0.250001 3.5 0.250001 0.249999 3.5 -0.249999 0.250001 3.5 -0.250001 -0.249999 3.5</float_array>
+					<technique_common>
+						<accessor count="10" source="#ObjectGeom-positions-array" stride="3">
+							<param name="X" type="float"/>
+							<param name="Y" type="float"/>
+							<param name="Z" type="float"/>
+						</accessor>
+					</technique_common>
+				</source>
+				<source id="ObjectGeom-normals">
+					<float_array id="ObjectGeom-normals-array" count="30" digits="2490374">-3.39746e-06 -1 0 1 -3.41982e-06 0 3.39746e-06 1 0 -1 3.41982e-06 0 -3.39746e-06 -1 -0 -3.39746e-06 -1 0 1 -3.41982e-06 0 3.39746e-06 1 0 -1 3.41982e-06 0 -3.39746e-06 -1 0</float_array>
+					<technique_common>
+						<accessor count="10" source="#ObjectGeom-normals-array" stride="3">
+							<param name="X" type="float"/>
+							<param name="Y" type="float"/>
+							<param name="Z" type="float"/>
+						</accessor>
+					</technique_common>
+				</source>
+				<vertices id="ObjectGeom-vertices">
+					<input semantic="POSITION" source="#ObjectGeom-positions"/>
+				</vertices>
+				<triangles count="14" material="mtl">
+					<input offset="0" semantic="VERTEX" source="ObjectGeom-vertices" set="0"/>
+					<input offset="1" semantic="NORMAL" source="ObjectGeom-normals" set="0"/>
+					<p>2 0 1 0 0 0 3 0 2 0 0 0 5 5 6 5 7 5 5 5 7 5 8 5 5 5 0 0 1 1 5 5 1 1 6 6 6 6 1 1 2 2 6 6 2 2 7 7 7 7 2 2 3 3 7 7 3 3 8 8 8 8 3 3 4 4 8 8 4 4 9 9 9 9 4 4 0 0 9 9 0 0 5 5</p>
+				</triangles>
+			</mesh>
+		</geometry>
+	</library_geometries>
+	<library_visual_scenes>
+		<visual_scene id="BSD">
+			<node id="BSD">
+				<instance_geometry url="#BSD%20Archer%20HouseGeom"/>
+			</node>
+			<node id="ObjectNode">
+				<instance_geometry url="#ObjectGeom"/>
+			</node>
+			<node id="windowNode">
+				<instance_geometry url="#windowGeom"/>
+			</node>
+			<node id="windowNode">
+				<instance_geometry url="#windowGeom"/>
+			</node>
+			<node id="ObjectNode">
+				<instance_geometry url="#ObjectGeom"/>
+			</node>
+			<node id="ObjectNode">
+				<instance_geometry url="#ObjectGeom"/>
+			</node>
+			<node id="windowNode">
+				<instance_geometry url="#windowGeom"/>
+			</node>
+			<node id="ObjectNode">
+				<instance_geometry url="#ObjectGeom"/>
+			</node>
+			<node id="windowNode">
+				<instance_geometry url="#windowGeom"/>
+			</node>
+			<node id="Federated">
+				<instance_geometry url="#Federated%20window%20systemGeom"/>
+			</node>
+			<node id="ObjectNode">
+				<instance_geometry url="#ObjectGeom"/>
+			</node>
+			<node id="windowNode">
+				<instance_geometry url="#windowGeom"/>
+			</node>
+			<node id="Concrete">
+				<instance_geometry url="#Concrete%20Footer%20-%20LightGeom"/>
+			</node>
+			<node id="ObjectNode">
+				<instance_geometry url="#ObjectGeom"/>
+			</node>
+			<node id="ObjectNode">
+				<instance_geometry url="#ObjectGeom"/>
+			</node>
+			<node id="ObjectNode">
+				<instance_geometry url="#ObjectGeom"/>
+			</node>
+			<node id="ObjectNode">
+				<instance_geometry url="#ObjectGeom"/>
+			</node>
+			<node id="windowNode">
+				<instance_geometry url="#windowGeom"/>
+			</node>
+			<node id="ObjectNode">
+				<instance_geometry url="#ObjectGeom"/>
+			</node>
+			<node id="ObjectNode">
+				<instance_geometry url="#ObjectGeom"/>
+			</node>
+			<node id="windowNode">
+				<instance_geometry url="#windowGeom"/>
+			</node>
+			<node id="ObjectNode">
+				<instance_geometry url="#ObjectGeom"/>
+			</node>
+			<node id="windowNode">
+				<instance_geometry url="#windowGeom"/>
+			</node>
+			<node id="ObjectNode">
+				<instance_geometry url="#ObjectGeom"/>
+			</node>
+			<node id="ObjectNode">
+				<instance_geometry url="#ObjectGeom"/>
+			</node>
+			<node id="ObjectNode">
+				<instance_geometry url="#ObjectGeom"/>
+			</node>
+		</visual_scene>
+	</library_visual_scenes>
+	<scene>
+		<instance_visual_scene url="#BSD%20Archer%20House_244-199-022__aeaa41fa-44a6-4fb0-81c5-14c617c6391aScene"/>
+	</scene>
+</COLLADA>

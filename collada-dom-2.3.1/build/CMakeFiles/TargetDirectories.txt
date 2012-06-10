@@ -1,0 +1,7 @@
+/Users/anmorales1/Desktop/OAR:COLLADA/collada-dom-2.3.1/build/dom/src/1.4/CMakeFiles/collada14dom.dir
+/Users/anmorales1/Desktop/OAR:COLLADA/collada-dom-2.3.1/build/dom/src/1.5/CMakeFiles/collada15dom.dir
+/Users/anmorales1/Desktop/OAR:COLLADA/collada-dom-2.3.1/build/dom/external-libs/minizip-1.1/CMakeFiles/minizip.dir
+/Users/anmorales1/Desktop/OAR:COLLADA/collada-dom-2.3.1/build/dom/external-libs/pcre-8.02/CMakeFiles/pcre_local.dir
+/Users/anmorales1/Desktop/OAR:COLLADA/collada-dom-2.3.1/build/dom/external-libs/pcre-8.02/CMakeFiles/pcrecpp_local.dir
+/Users/anmorales1/Desktop/OAR:COLLADA/collada-dom-2.3.1/build/dom/external-libs/pcre-8.02/CMakeFiles/pcreposix_local.dir
+/Users/anmorales1/Desktop/OAR:COLLADA/collada-dom-2.3.1/build/CMakeFiles/uninstall.dir

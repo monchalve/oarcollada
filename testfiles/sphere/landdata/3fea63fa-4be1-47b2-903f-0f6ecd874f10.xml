@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-16"?>
+<LandData>
+  <Area>65536</Area>
+  <AuctionID>0</AuctionID>
+  <AuthBuyerID>00000000-0000-0000-0000-000000000000</AuthBuyerID>
+  <Category>0</Category>
+  <ClaimDate>1323297437</ClaimDate>
+  <ClaimPrice>0</ClaimPrice>
+  <GlobalID>3fea63fa-4be1-47b2-903f-0f6ecd874f10</GlobalID>
+  <GroupID>00000000-0000-0000-0000-000000000000</GroupID>
+  <IsGroupOwned>False</IsGroupOwned>
+  <Bitmap>//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////8=</Bitmap>
+  <Description />
+  <Flags>134258779</Flags>
+  <LandingType>0</LandingType>
+  <Name>Your Parcel</Name>
+  <Status>0</Status>
+  <LocalID>1</LocalID>
+  <MediaAutoScale>0</MediaAutoScale>
+  <MediaID>00000000-0000-0000-0000-000000000000</MediaID>
+  <MediaURL />
+  <MusicURL />
+  <OwnerID>6ec50211-dc8c-4e47-aadf-858d143f18be</OwnerID>
+  <ParcelAccessList />
+  <PassHours>0</PassHours>
+  <PassPrice>0</PassPrice>
+  <SalePrice>0</SalePrice>
+  <SnapshotID>00000000-0000-0000-0000-000000000000</SnapshotID>
+  <UserLocation>&lt;0, 0, 0&gt;</UserLocation>
+  <UserLookAt>&lt;0, 0, 0&gt;</UserLookAt>
+  <Dwell>0</Dwell>
+  <OtherCleanTime>0</OtherCleanTime>
+</LandData>
